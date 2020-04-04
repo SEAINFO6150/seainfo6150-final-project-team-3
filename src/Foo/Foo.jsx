@@ -1,6 +1,4 @@
 import React, {Component} from 'react'
-import Bar from "../Bar/Bar";
-import Navigation from "../Navigation/Navigation";
 import {BrowserRouter as Router, Link, Switch, Route} from "react-router-dom";
 
 const Foo = (props) => {
