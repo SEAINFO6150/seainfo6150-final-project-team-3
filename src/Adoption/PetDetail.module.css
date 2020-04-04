@@ -5,55 +5,40 @@
 petBody{
     text-align: left;
     margin: auto;
-    font-family: Palatino, serif;
-    font-size: 24px; 
     justify-content: space-between;
     flex-flow: column nowrap;   
     display: flex;
-   
 }
-.bodySection{
+.content{
     margin:10px;
     padding:10px;
-    border: 2px solid#46b6c7ab;
+    border: 2px solid  #a68782;;
     background: white;
+    color:#a68782;
 }
 
-.brief{
-    margin:10px;
-    padding:10px;
-    border: 2px solid #46b6c7ab;
-    background: white;
-}
-
-.h1Title{
-    color:black;
-    font-family: Trebuchet MS, sans-serif;
+.h1{
+    color:#a68782;;
     font-size: 30px;
     margin:10px;
     padding:10px;
     
 }
 
-.h2Title{
-    color: black;
-    font-family: Trebuchet MS, sans-serif;
-    font-size: 25px;
+.h2{
+    color: #a68782;;
+    font-size: 30px;
 }
 
-.h3Title{
-    color: black;
-    font-family: Trebuchet MS, sans-serif;
-    font-size: 20px;
+.h3{
+    color: #a68782;;
+    font-size: 25px;
 }
 
 
 .image{
-    margin:10px;
-    width: auto;
-	height: auto;
-    max-width: 90%;
-    max-height: 90%;
+    height: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
-
-

@@ -17,7 +17,6 @@ const AdoptionPage = (props) => {
             <ul className={styles.p}>
             {petArray.map(pet => (
                 <li className={styles.li} key={pet.name}><Adoption pet = {pet}/></li>
-
             ))}
             </ul>
 

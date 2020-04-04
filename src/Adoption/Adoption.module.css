@@ -4,43 +4,33 @@
     font-size: 25px;
     display: flow;
     justify-content: space-between;
-    box-shadow: 0 6px 8px 0 dimgray; 
+    box-shadow: 0 10px 12px 0 dimgray; 
+    color: #a68782;
 }
+
 
 .petName{
     margin:8px;
     padding:5px;
-    color: rgb(3, 3, 3);
+    color: #a68782;
     font-size: 30px;
 }
 
 .image{
-    margin:5px;
+    margin:3px;
     padding:5px;
     width:95%;
-    height:80%;
+    height:85%;
 
 }
 .details{
-    color: rgb(7, 7, 7);
-}
-
-.summaryDiv{
-    margin:10px;
-    padding: 10px;
-    border: 2px solid rgb(52, 54, 56);
-}
-.title{
-    padding:5px;
-    color: rgb(17, 4, 1);
-    font-size:35px;
+    color: #a68782;
 }
 
 .p{
     margin:5px;
     font-size:20px;
-    font-family: Trebuchet MS, sans-serif;
-    
+    color: #a68782;  
 }
 
 
