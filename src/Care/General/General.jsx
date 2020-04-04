@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import articles from '../data/GeneralPetCare.json';
 import CareListItem from '../CareListItem.jsx';
 
-const GeneralPetList = () => {
+const General = () => {
   let { url } = useRouteMatch();
   let history = useHistory();
 
@@ -25,8 +25,8 @@ const GeneralPetList = () => {
   );
 };
 
-GeneralPetList.propTypes = {
+General.propTypes = {
   articles: PropTypes.array.isRequired
 };
 
-export default GeneralPetList;
+export default General;
