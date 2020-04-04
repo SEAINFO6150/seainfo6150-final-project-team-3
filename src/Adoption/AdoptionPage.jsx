@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import pets from "./data/pets.json"
+import pets from "../data/pets.json"
 import Adoption from "./Adoption.jsx"
 import styles from "./AdoptionPage.module.css"
 

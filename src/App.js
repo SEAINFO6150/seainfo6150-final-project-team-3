@@ -2,9 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Home from "./Home/Home.jsx";
-import AdoptionList from "./AdoptionList.jsx";
-import AdoptionPage from "./AdoptionPage.jsx";
-import PetDetailPage from "./PetDetailPage";
+import AdoptionList from "./Adoption/AdoptionList.jsx";
+import AdoptionPage from "./Adoption/AdoptionPage.jsx";
+import PetDetailPage from "./Adoption/PetDetailPage";
 import Bar from "./Bar/Bar.jsx";
 import Baz from "./Baz/Baz.jsx";
 import Error from "./Error/Error.jsx";

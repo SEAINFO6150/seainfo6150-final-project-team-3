@@ -1,0 +1,59 @@
+.page{
+    text-align: center;
+}
+
+petBody{
+    text-align: left;
+    margin: auto;
+    font-family: Palatino, serif;
+    font-size: 24px; 
+    justify-content: space-between;
+    flex-flow: column nowrap;   
+    display: flex;
+   
+}
+.bodySection{
+    margin:10px;
+    padding:10px;
+    border: 2px solid#46b6c7ab;
+    background: white;
+}
+
+.brief{
+    margin:10px;
+    padding:10px;
+    border: 2px solid #46b6c7ab;
+    background: white;
+}
+
+.h1Title{
+    color:black;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 30px;
+    margin:10px;
+    padding:10px;
+    
+}
+
+.h2Title{
+    color: black;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 25px;
+}
+
+.h3Title{
+    color: black;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 20px;
+}
+
+
+.image{
+    margin:10px;
+    width: auto;
+	height: auto;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+

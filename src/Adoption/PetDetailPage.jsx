@@ -1,5 +1,5 @@
 import React from 'react'
-import pets from "./data/pets.json";
+import pets from "../data/pets.json";
 import PetDetail from "./PetDetail.jsx"
 
 const PetDetailPage = (props) => {
