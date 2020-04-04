@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Article_Allergic = () => {
+const ArticleDogCare = () => {
     return (
         <div>
             <h1>General Dog Care</h1>
@@ -11,4 +11,4 @@ const Article_Allergic = () => {
     )
 }
 
-export default Article_Allergic
+export default ArticleDogCare
