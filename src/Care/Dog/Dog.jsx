@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { useHistory, useRouteMatch, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, useHistory, useRouteMatch, Switch, Route, Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import articles from '../data/article.json';
+import articles from '../data/DogCare.json';
 import CareListItem from '../CareListItem.jsx';
 
-const CareList = () => {
+const Dog = () => {
   let { url } = useRouteMatch();
   let history = useHistory();
 
@@ -25,8 +25,8 @@ const CareList = () => {
   );
 };
 
-CareList.propTypes = {
+Dog.propTypes = {
   articles: PropTypes.array.isRequired
 };
 
-export default CareList;
+export default Dog;

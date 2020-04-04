@@ -7,6 +7,16 @@ import Care from './Care/Care.jsx';
 import Baz from './Baz/Baz.jsx';
 import Error from './Error/Error.jsx';
 import CareDetail from './Care/CareDetail';
+import General from './Care/General/General.jsx';
+import Dog from './Care/Dog/Dog.jsx';
+import Cat from './Care/Cat/Cat.jsx';
+import ArticleAllergic from './Care/General/ArticleAllergic.jsx';
+import ArticleDogCare from './Care/Dog/ArticleDogCare.jsx';
+import ArticleCatCare from './Care/Cat/ArticleCatCare.jsx';
+
+
+
+
 
 // here is some external content. look at the /baz route below
 // to see how this content is passed down to the components via props
@@ -42,6 +52,12 @@ function App() {
       {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
       <Switch>
+        <Route path="/care/general_cat_care" exact component={ArticleCatCare} />
+        <Route path="/care/general_dog_care" exact component={ArticleDogCare} />
+        <Route path="/care/general_allergies" exact component={ArticleAllergic} />
+        <Route path="/care/general" exact component={General} />
+        <Route path="/care/dog" exact component={Dog} />
+        <Route path="/care/cat" exact component={Cat} />
         <Route path="/" exact component={Home} />
         <Route path="/foo" exact component={Foo} />
         {/* passing parameters via a route path */}
