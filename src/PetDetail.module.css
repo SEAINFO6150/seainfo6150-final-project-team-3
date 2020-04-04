@@ -1,0 +1,90 @@
+.page{
+    text-align: center;
+}
+
+petBody{
+    text-align: left;
+    margin: auto;
+    font-family: Palatino, serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    background: rgba(238, 147, 44, 0.5);    
+}
+.bodySection{
+    margin:10px;
+    padding:10px;
+    border: 2px solid#46b6c7ab;
+    background: white;
+}
+
+.brief{
+    margin:10px;
+    padding:10px;
+    border: 2px solid #46b6c7ab;
+    background: white;
+}
+
+.h1Title{
+    color: rgb(198, 58, 27);
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 30px;
+    margin:10px;
+    padding:10px;
+    
+}
+
+.h2Title{
+    color: rgb(198, 58, 27);
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 25px;
+}
+
+.h3Title{
+    color: rgb(198, 58, 27);
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 20px;
+}
+
+
+.image{
+    margin:10px;
+    width: auto;
+	height: auto;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+
+/* @media (min-width: 800px){
+    .petBody{
+        max-width: 1000px;
+    }
+    .h1Title{
+        font-size: 26px;
+        position: absolute;
+        color: rgb(198, 58, 27);
+        z-index: 1;
+        padding-inline-start: 1rem;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+
+    }
+
+    @keyframes glow {
+        from {
+          text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 7px rgb(222,94,38), 0 0 10px rgb(222,94,38), 0 0 12px rgb(222,94,38), 0 0 15px rgb(222,94,38), 0 0 17px rgb(222,94,38);
+        }
+        to {
+          text-shadow: 0 0 5px #fff, 0 0 7px rgb(238,147,44), 0 0 10px rgb(238,147,44), 0 0 12px rgb(238,147,44), 0 0 15px rgb(238,147,44), 0 0 17px rgb(238,147,44), 0 0 20px rgb(238,147,44);
+        }
+      }
+      
+    .parContent{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    
+} */

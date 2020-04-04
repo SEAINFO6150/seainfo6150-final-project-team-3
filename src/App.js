@@ -2,7 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Home from "./Home/Home.jsx";
-import Foo from "./Foo/Foo.jsx";
+import AdoptionList from "./AdoptionList.jsx";
+import AdoptionPage from "./AdoptionPage.jsx";
+import PetDetailPage from "./PetDetailPage";
 import Bar from "./Bar/Bar.jsx";
 import Baz from "./Baz/Baz.jsx";
 import Error from "./Error/Error.jsx";
@@ -27,7 +29,7 @@ function App() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/foo">Foo</Link>
+              <Link to="/adoptionlist">Adoption</Link>
             </li>
             <li>
               <Link to="/bar/hats/sombrero">Bar</Link>
@@ -42,7 +44,24 @@ function App() {
             renders the first one that matches the current URL. */}
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/foo" exact component={Foo} />
+        <Route path="/adoptionlist" exact component={AdoptionList} />
+
+        <Route path="/adoption/:adoption" 
+          exact 
+          render = {({match}) => (
+            <AdoptionPage adoption={match.params.adoption}/>
+
+            )
+          }
+          />
+        <Route 
+          path="/detail/:id"        
+          exact
+          render={({ match }) => (
+            <PetDetailPage id={match.params.id}/>
+          )}
+        />
+
         {/* passing parameters via a route path */}
         <Route
           path="/bar/:categoryId/:productId"

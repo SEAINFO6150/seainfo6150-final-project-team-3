@@ -1,0 +1,53 @@
+.adoption{
+    margin:10px;
+    padding: 10px;
+    font-size: 25px;
+    display: flow;
+    justify-content: space-between;
+    box-shadow: 0 6px 8px 0 dimgray; 
+}
+
+.petName{
+    margin:8px;
+    padding:5px;
+    color: rgb(3, 3, 3);
+    font-size: 30px;
+}
+
+.image{
+    margin:5px;
+    padding:5px;
+    width:95%;
+    height:80%;
+
+}
+.details{
+    color: rgb(7, 7, 7);
+}
+
+.summaryDiv{
+    margin:10px;
+    padding: 10px;
+    border: 2px solid rgb(52, 54, 56);
+}
+.title{
+    padding:5px;
+    color: rgb(17, 4, 1);
+    font-size:35px;
+}
+
+.p{
+    margin:5px;
+    font-size:20px;
+    font-family: Trebuchet MS, sans-serif;
+    
+}
+
+
+
+
+
+
+
+
+

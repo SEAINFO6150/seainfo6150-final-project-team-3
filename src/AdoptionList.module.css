@@ -1,0 +1,24 @@
+.box{
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: auto;
+    justify-content: space-between;
+    margin:10px;
+    padding: 5px;
+    font-family: Palatino, serif;
+}
+.option{
+    margin:5px;
+    padding: 10px;
+    border: 2px solid #a8adad;
+ 
+    
+}
+
+.image{
+    box-shadow: 0 6px 8px 0 dimgray; 
+    margin:3px;
+    padding:3px;
+    width:50%;
+    height:80%;
+}
