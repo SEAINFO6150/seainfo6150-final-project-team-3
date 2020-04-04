@@ -16,6 +16,8 @@ import ArticleCatCare from "../Care/Cat/ArticleCatCare";
 import AdoptionPage from "../Adoption/AdoptionPage";
 import PetDetailPage from "../Adoption/PetDetailPage";
 import AdoptionList from "../Adoption/AdoptionList.jsx";
+import AboutUS from "../AboutUS/AboutUS";
+
 
 const Navigation = () => {
     return (
@@ -41,7 +43,7 @@ const Navigation = () => {
                             <Link to="/News">News & Event</Link>
                         </li>
                         <li>
-                            <Link to="/ContactUs">About Us</Link>
+                            <Link to="/AboutUS">About Us</Link>
                         </li>
                         <li>
                             <Link to="/baz">Get Involved</Link>
@@ -60,7 +62,8 @@ const Navigation = () => {
                     <Route path="/care/cat" exact component={Cat} />
                     <Route path="/Care" exact component={Care} />
                     <Route path="/News" exact component={News} />
-                    <Route path="/ContactUs" exact component={ContactUS} />
+                    <Route path="/AboutUS" exact component={AboutUS} />
+                    <Route path="/ContactUS" exact component={ContactUS} />
 
                     <Route path="/adoption/:adoption"
                            exact
@@ -102,11 +105,10 @@ const Navigation = () => {
                         <Link to="/Home">For Developers</Link>
                     </li>
                     <li>
-                        <Link to="/ContactUs">Contact Us</Link>
+                        <Link to="/ContactUS">Contact Us</Link>
                     </li>
                 </ul>
             </nav>
-
         </Router>
     )
 }
