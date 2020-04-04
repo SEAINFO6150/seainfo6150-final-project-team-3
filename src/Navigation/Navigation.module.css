@@ -1,0 +1,57 @@
+.NavContainer{
+    background-image: linear-gradient(to bottom,  #ead0d1, #ead0d1, #dfd6d7 100%);
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+.LogoDiv{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-content: space-around;
+    align-items: center;
+}
+.logoImg{
+    width: auto;
+    height: 10rem;
+}
+
+.slogan{
+    color: #c1cbd7;
+    font-family: Helvetica;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.navBar{
+    text-align: justify;
+    font-family: Helvetica;
+    padding: 0rem;
+    margin:0rem;
+}
+
+.navBar li {
+    font-size: 20px;
+    float:left;
+    padding: 20px;
+    list-style: none;
+}
+.navBar li:hover{
+    background-color: #bfbfbf;
+}
+li a {
+    color: #a68782;
+    text-decoration: none;
+}
+
+
+
+.footerNav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #bfbfbf;
+
+}
+
+.footerNav li{
+    list-style: none;
+    font-size: 1.2rem;
+}

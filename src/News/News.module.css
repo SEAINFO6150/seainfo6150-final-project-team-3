@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    min-height: 100%;
+    font-family: Helvetica;
+    font-size: 10px;
+}

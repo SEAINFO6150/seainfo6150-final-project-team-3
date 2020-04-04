@@ -1,0 +1,34 @@
+.img{
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.container{
+    width: auto;
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.container header{
+    color: #a68782;
+    margin-bottom: 1.5rem;
+}
+
+.processDiv{
+    color: #a68782;
+    border:solid 2px;
+}
+
+.processDiv ul{
+    margin: 1rem;
+}
+.processDiv li{
+    margin: 1rem;
+    font-size: 1.5rem;
+    text-align: left;
+    list-style: none;
+}
+
