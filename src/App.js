@@ -6,7 +6,6 @@ import Foo from './Foo/Foo.jsx';
 import Care from './Care/Care.jsx';
 import Baz from './Baz/Baz.jsx';
 import Error from './Error/Error.jsx';
-import CareDetail from './Care/CareDetail';
 import General from './Care/General/General.jsx';
 import Dog from './Care/Dog/Dog.jsx';
 import Cat from './Care/Cat/Cat.jsx';
@@ -53,9 +52,7 @@ function App() {
             renders the first one that matches the current URL. */}
       <Switch>
         <Route path="/care/general_cat_care" exact component={ArticleCatCare} />
-
         <Route path="/care/general_dog_care" exact component={ArticleDogCare} />
-        
         <Route path="/care/general_allergies" exact component={ArticleAllergic} />
         <Route path="/care/general" exact component={General} />
         <Route path="/care/dog" exact component={Dog} />
