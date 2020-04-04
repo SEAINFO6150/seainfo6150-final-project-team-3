@@ -1,4 +1,3 @@
-/* 审慎在不加限定条件下使用标签选择器，不然的话会给自己制造隐藏的 bug */
 .banner-img {
   float: center;
   margin-left: auto;
