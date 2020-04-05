@@ -17,6 +17,12 @@ import AdoptionPage from "../Adoption/AdoptionPage";
 import PetDetailPage from "../Adoption/PetDetailPage";
 import AdoptionList from "../Adoption/AdoptionList.jsx";
 import AboutUS from "../AboutUS/AboutUS";
+import News1 from "../News/NewsDetails/News1";
+import News2 from "../News/NewsDetails/News2";
+import News3 from "../News/NewsDetails/News3";
+import Event1 from "../News/NewsDetails/Event1";
+import Event2 from "../News/NewsDetails/Event2";
+import Event3 from "../News/NewsDetails/Event3";
 
 
 const Navigation = () => {
@@ -62,6 +68,12 @@ const Navigation = () => {
                     <Route path="/care/cat" exact component={Cat} />
                     <Route path="/Care" exact component={Care} />
                     <Route path="/News" exact component={News} />
+                    <Route path="/News/NewsDetails/News1" exact component={News1}/>
+                   <Route path="/News/NewsDetails/News2" exact component={News2} />
+                   <Route path="/News/NewsDetails/News3" exact component={News3} />
+                    <Route path="/News/NewsDetails/Event1" exact component={Event1} />
+                    <Route path="/News/NewsDetails/Event2" exact component={Event2} />
+                    <Route path="/News/NewsDetails/Event3" exact component={Event3} />
                     <Route path="/AboutUS" exact component={AboutUS} />
                     <Route path="/ContactUS" exact component={ContactUS} />
 
@@ -79,6 +91,7 @@ const Navigation = () => {
                             <PetDetailPage id={match.params.id}/>
                         )}
                     />
+                    
                     <Route component={Home} />
                 </Switch>
             </div>

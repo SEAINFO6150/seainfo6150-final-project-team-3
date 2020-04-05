@@ -7,10 +7,12 @@
     font-family: Helvetica;
     font-size: 10px;
     margin-top:10px;
-    margin-bottom: 10px;
+    margin-bottom: 26px;
     margin-left:30px;
     margin-right: 30px;
      border: 0px solid #79bfe9;
+     width: 800px;
+     height:200px;
 }
 
 .newsImage {
