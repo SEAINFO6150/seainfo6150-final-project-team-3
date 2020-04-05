@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+}
+.ContactUsImage{
+    border: 5px solid #79bfe9;
+    margin-top:4px;
+    width: 300px;
+    height: auto;
+}
+.contactInfo{
+    padding: 1rem;
+}
+
+.contactInfo header{
+    font-family: Helvetica;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contactInfo li{
+    list-style: none;
+}
+
+.contactInfo a{
+    color: blue;
+}
+
+@media(min-width: 600px){
+    .ContactUsImage {
+        width: 500px;
+    }
+}

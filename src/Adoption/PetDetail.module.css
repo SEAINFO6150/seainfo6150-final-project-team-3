@@ -1,59 +1,36 @@
-.page{
-    text-align: center;
-}
-
-petBody{
-    text-align: left;
-    margin: auto;
-    font-family: Palatino, serif;
-    font-size: 24px; 
-    justify-content: space-between;
-    flex-flow: column nowrap;   
-    display: flex;
-   
-}
-.bodySection{
-    margin:10px;
-    padding:10px;
-    border: 2px solid#46b6c7ab;
-    background: white;
-}
-
-.brief{
-    margin:10px;
-    padding:10px;
-    border: 2px solid #46b6c7ab;
-    background: white;
-}
-
-.h1Title{
-    color:black;
-    font-family: Trebuchet MS, sans-serif;
-    font-size: 30px;
-    margin:10px;
-    padding:10px;
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     
 }
 
-.h2Title{
-    color: black;
-    font-family: Trebuchet MS, sans-serif;
-    font-size: 25px;
-}
-
-.h3Title{
-    color: black;
-    font-family: Trebuchet MS, sans-serif;
-    font-size: 20px;
-}
-
-
 .image{
+    height: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+} 
+.h1{
+    color:#a68782;;
+    font-size: 30px;
     margin:10px;
-    width: auto;
-	height: auto;
-    max-width: 90%;
-    max-height: 90%;
+    padding:10px;
+    text-align: center; 
+}
+.h2{
+    text-align: center; 
+}
+.summary{
+    margin-top: auto;
+    text-align: left;
+    color:#a68782;
+    border-color: #a68782;
 }
 
-
+.content{
+    margin:30px;
+    padding:10px;
+    border: 2px dashed  #a68782;;
+    background: white;
+    color:#a68782;
+}

@@ -4,43 +4,38 @@ import styles from './PetDetail.module.css'
 
 const PetDetail = props => {
 
-    return <div className = {styles.page}>
-        <div className = {styles.petBody}>
-            <div className = {styles.parContent}>
-                <h1 className = {styles.h1Title}>{props.pet.name}</h1>
+    return (
+    <section>
+        <div className={styles.box}>
+            <div>
+                <h1 className = {styles.h1}>{props.pet.name}</h1>
                 <div>
                     <picture className = {styles.image}>
-                        <source media="(min-width: 500px)" srcset={props.pet.img.url}/>
+                        <source srcset={props.pet.img.url}/>
                         <img  className = {styles.image} src={props.pet.img.url} alt={props.pet.name}/>
                     </picture>
                 </div>
-                <div className = {styles.brief}>
-                    <div>
-                        <h2 className = {styles.h2Title}>About</h2>
-                        <p>{props.pet.summary}</p>
-                    </div>
-                    <div>
-                        <h3 className = {styles.h3Title}>Gender</h3>
-                        <p>{props.pet.gender}</p>
-                    </div>
-                    <div>
-                        <h3 className = {styles.h3Title}>Age</h3>
-                        <p>{props.pet.age}</p>
-                    </div>
-                    <div>
-                        <h3 className = {styles.h3Title}>Position</h3>
-                        <p>{props.pet.position}</p>
-                    </div>
-                    <div>
-                        <h3 className = {styles.h3Title}>Information</h3>
-                        <p>{props.pet.information}</p>
-                    </div>
-                </div>
             </div>
-           
-          
+
+            <div className = {styles.summary}>
+                
+                <p><h2>Gender </h2>{props.pet.gender}</p>
+                
+                <p><h2>Age</h2>{props.pet.age}</p>
+                
+                <p><h2>Position</h2>{props.pet.position}</p>
+            </div>
         </div>
-    </div>
+
+        <div className = {styles.content}>
+            <div>
+                <h3 className = {styles.h2}>Information</h3>
+                {props.pet.information}
+            </div>
+        </div>
+           
+    </section>
+    );
 }
 PetDetail.propTypes = {
     pet: PropTypes.object.isRequired
