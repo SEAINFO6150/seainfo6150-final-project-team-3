@@ -10,20 +10,25 @@ const PetDetail = props => {
             <div>
                 <h1 className = {styles.h1}>{props.pet.name}</h1>
                 <div>
-                    <picture className = {styles.image}>
-                        <source srcset={props.pet.img.url}/>
-                        <img  className = {styles.image} src={props.pet.img.url} alt={props.pet.name}/>
-                    </picture>
+                    <a href="/askPet">
+                        <p><button className = {styles.button}>Ask about this Pet</button></p>
+                        <br/>
+                        <picture className = {styles.image}>
+                            <source srcset={props.pet.img.url}/>
+                            <img  className = {styles.image} src={props.pet.img.url} alt={props.pet.name}/>
+                        </picture>
+                    </a>
                 </div>
             </div>
 
             <div className = {styles.summary}>
                 
-                <p><h2>Gender </h2>{props.pet.gender}</p>
+                <h2>Gender </h2>{props.pet.gender}
                 
-                <p><h2>Age</h2>{props.pet.age}</p>
+                <h2>Age</h2>{props.pet.age}
                 
-                <p><h2>Position</h2>{props.pet.position}</p>
+                <h2>Position</h2>{props.pet.position}
+
             </div>
         </div>
 
@@ -32,6 +37,7 @@ const PetDetail = props => {
                 <h3 className = {styles.h2}>Information</h3>
                 {props.pet.information}
             </div>
+            
         </div>
            
     </section>

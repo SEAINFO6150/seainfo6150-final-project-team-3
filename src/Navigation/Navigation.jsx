@@ -23,6 +23,7 @@ import News3 from "../News/NewsDetails/News3";
 import Event1 from "../News/NewsDetails/Event1";
 import Event2 from "../News/NewsDetails/Event2";
 import Event3 from "../News/NewsDetails/Event3";
+import AskPet from "../Adoption/AskPet/AskPet.jsx";
 
 
 const Navigation = () => {
@@ -76,6 +77,7 @@ const Navigation = () => {
                     <Route path="/News/NewsDetails/Event3" exact component={Event3} />
                     <Route path="/AboutUS" exact component={AboutUS} />
                     <Route path="/ContactUS" exact component={ContactUS} />
+                    <Route path="/askPet" exact component={AskPet}/>
 
                     <Route path="/adoption/:adoption"
                            exact

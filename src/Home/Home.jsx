@@ -5,7 +5,9 @@ const Home = () => {
     return (
         <div className={styles.container}>
             <header>Planing to Adopt a Pet?</header>
+            <a href ="/adoption">
             <img className={styles.img} src="/images/ADOPTION-DOG.jpg" alt="ADOPTION-DOG" />
+            </a>
             <div className={styles.processDiv}>
                 <header>
                 The process to adopt a pet:
