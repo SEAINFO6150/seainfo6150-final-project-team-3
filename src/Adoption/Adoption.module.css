@@ -1,0 +1,43 @@
+.adoption{
+    margin:10px;
+    padding: 10px;
+    font-size: 25px;
+    display: flow;
+    justify-content: space-between;
+    box-shadow: 0 10px 12px 0 dimgray; 
+    color: #a68782;
+}
+
+
+.petName{
+    margin:8px;
+    padding:5px;
+    color: #a68782;
+    font-size: 30px;
+}
+
+.image{
+    margin:3px;
+    padding:5px;
+    width:95%;
+    height:85%;
+
+}
+.details{
+    color: #a68782;
+}
+
+.p{
+    margin:5px;
+    font-size:20px;
+    color: #a68782;  
+}
+
+
+
+
+
+
+
+
+

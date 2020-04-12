@@ -1,0 +1,39 @@
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 20rem;
+} 
+.h1{
+    color:#a68782;;
+    font-size: 30px;
+    margin:10px;
+    padding:10px;
+    text-align: center; 
+}
+.h2{
+    text-align: center; 
+}
+.summary{
+    margin-top: auto;
+    text-align: center;
+    color:#a68782;
+    border-color: #a68782;
+}
+
+.content{
+    margin: 5rem;
+    padding:10px;
+    border: 2px dashed  #a68782;
+    background: white;
+    color:#a68782;
+}
+.button{
+    background: #c0afad;
+}
+

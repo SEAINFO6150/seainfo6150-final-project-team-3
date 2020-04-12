@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    min-height: 100%;
+    font-family: Helvetica;
+    font-size: 10px;
+}
+
+.newsul{
+padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.newsul li{
+
+list-style-type: none;
+    margin: 18px;
+    border: 0px solid #cc0000;
+}

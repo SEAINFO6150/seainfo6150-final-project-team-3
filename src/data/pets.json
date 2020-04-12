@@ -1,0 +1,294 @@
+[
+    {
+        "id": 1,
+        "name": "Bruce",
+        "adoption": "Dog",
+        "summary": ["Male * Young Adult * Seattle,WA"],
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=1bIxs_lMN274HSF4mZ593-iIay_JkuTmX",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Male",
+        "age": "Young Adult",
+        "position": "Seattle, WA",
+        "information": ["Bruce is a gentle giant who loves everyone and loves being adored by his fans (aka Caregivers!). Bruce will sit very still and accept ALL of the pets and kisses you want to dote out. That is, until you grab the Peanut Butter jar. If there was an award for fastest peanut butter licker, this boy would win!", "Bruce is the newest resident at the sanctuary and we are learning more about him everyday! Check back later – we’ll update his bio as we learn more! Or just go ahead and complete a questionnaire for him because trust us, you won’t wan to let this dog go."]
+      },
+      
+      {
+      "id": 15,
+        "name": "Jordan",
+        "adoption": "Dog",
+        "summary": ["Male * Young Adult * Seattle,WA"],
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=1OPBF9Ki_z0r91WJdWEg-RqZtMlsUVouj",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Male",
+        "age": "Young Adult",
+        "position": "Seattle, WA",
+        "information": ["Jordan is a young guy from Australia. He is a delight and calm boy for his young age. He's very much a people dog and would love his own family.A fenced yard is required to adopt Jordan."]
+      },
+      {
+        "id": 3,
+        "name": "Marty",
+        "adoption": "Dog",
+        "summary": ["Famale * Young * Seattle,WA"],
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=1IiL6xt6Hgchorgduqy-tiPPGpINhMJsY",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Famale",
+        "age": "Young",
+        "position": "Seattle, WA",
+        "information": "Marty is a happy, healthy boy at 63lbs with his only hardship being that he simply loves people TOO much. Marty suffered from separation anxiety in his past home because all he wants is to be with people – but he is a confused little boy who needs confidence building and training catered to his specific needs (something we are preemptively working on at the sanctuary).One of Marty’s Caregivers said, “The first time I took Marty outside, I laid out in the grass, trying to get him to enjoy the outdoors but all he wanted to do was lay on top of me. He would come up and stretch his whole body up mine and rest his chin on my chin. I think Marty needs to be with someone who understands that they are his WHOLE WORLD. When he loves, he loves hard and sometimes it’s difficult for him.” But we all agree, that’s also one of the best things about Marty." 
+      }, 
+      {
+        "id": 16,
+        "name": "Murtle",
+        "adoption": "Dog",
+        "summary": [" Female  * Young Adult  * Seattle,WA"],
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=1LV8RpsG5zLOTPK7XNy6hH6cbTgKXjtck",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Famale",
+        "age": "Young",
+        "position": "Seattle, WA",
+        "information":[ "Murtle is a happy, calm and loving girl. She's lived her life as a professional racer in Australia and raised her puppies. This jet setting girl is now retired and in a Seattle area foster home. She enjoys spending time and relaxing with her people, including children. She will need a home without small dogs or cats. A fenced yard is required to adopt Murtle"]
+      }, {
+        "id": 17,
+        "name": "Onyx",
+        "adoption": "Dog",
+        "summary": ["Famale * Young * Seattle,WA"],
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=1R2UhjrBGQXkBhPQ3M5AMbq_9T1Ts_gl2",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Famale",
+        "age": "Young",
+        "position": "Seattle, WA",
+        "information": " Onyx was pulled from a local shelter that euthanized for space in his very last hours. He is approximately 1 year old lab mix male dog. All PETronus Rescue dogs receive basic vaccinations (distemper/parvo, bordetella, & rabies), spay/ neuter, and microchip prior to adoption. We also treat any know medical issues, including heartworms. Our dogs live in foster homes while they wait patiently for their forever families to find them. This is beneficial in that they learn house manners, crate training, housebreaking, etc while they wait and we are also able to get a very realistic picture of their energy level, temperament, etc so that we can place them in a home that is the best fit. Our adoption fees are $200 for dogs over 1 year of age and $250 for dogs under 1 year of age. Puppies receive 3 rounds of puppy vaccinations. Any dog in our program can be transported to an approved adopter in Washington or the Northeast. Others transports can be arranged on a case by case basis. There is a $200- $250 transport fee. If you are interested in adopting one of our amazing dogs, please fill out our adoption application here http://bit.do/PRAdoption and we will be in touch!" 
+      },
+      {
+        "id": 2,
+        "name": "Chance",
+        "adoption": "Dog",
+        "summary": ["Male * Young Adult  * Seattle,WA"],
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=1AEHDJwpWSpICxZmH3j-RxQrXFy9THjfn",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Famale",
+        "age": "Young",
+        "position": "Seattle, WA",
+        "information":[ "Hi – I’m Chance and I am a Pasado’s alum who was recently returned to the sanctuary because my pawrents are moving overseas. But that’s okay – we’re having a lot of fun at the sanctuary! I’ve made new friends and am working with their Behaviorist to learn all the fun things about being a good doggo. My favorite thing is when they give me my yellow lion soft toy – it’s the MOST FUN! But the people are fun too… I jump REAL high when I see my hoomans coming to play with me. They like to call me Tiger because I’m SO good at jumping!",
+"                        ", " I’m looking for an adult hooman family who understands that I’m a werkin’ dog who needs lots of mental stimulation and exercise! Do you have a big yard I can run in before coming in to snuggle on the couch? That’s all I need. Someone please take a “CHANCE” on me!",
+        "Chance requires an adult only home without other animals. He is not eligible for apartment living."]
+      }, 
+      {
+        "id": 20,
+        "name": "Marjo",
+        "adoption": "Cat",
+        "summary": ["Male * Young  *  Seattle,WA"],
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=1EFu8e-ciKPj7SSqpUrMFkilcsVgZah_k",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Male",
+        "age": "Young",
+        "position": "Seattle, WA",
+        "information": "Marjo is one of our wonderful muscovy ducks! Muscovy ducks have great personalities and are brave around humans. Ashley likes to stick around when there is company and be apart of the scene. She also loves to swim in the pond and preen her feathers on the shore. Muscovy ducks are fervent slug-eaters if you have a garden that needs tending and make all-around fantastic pets. They also hiss instead of quack so they can be good for adopters who live next to quiet-loving neighbors. Ashley would love to be in a flock with other muscovy ducks. If you would like to adopt Ashley, fill out an adoption questionnaire today! " 
+      },
+      {
+        "id": 5,
+        "name": "Hazy",
+        "adoption": "Cat",
+        "summary": ["Male * Young  * Seattle,WA"],
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=1bTZyZsrwS0mHZxoPz58g0_8CnhpRyU8G",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Male",
+        "age": "Young",
+        "position": "Seattle, WA",
+        "information": "**Important Note** You won't find this kitty at the shelter. This kitty is waiting patiently in foster care for your call. Please contact the Foster Care Hotline at 206-684-0685 to arrange a meeting. Thank you!Hazy is a relaxed but somewhat wary cat. Within hours of coming home he was sleeping on our bed, and the following day was curious but somewhat aloof. He is a generally quiet cat, and spends the days sleeping in a protected spot under the bed. But at night and in the morning he is out and about, and will approach you to be pet. He can be a little sensitive to touch but will let you know if he's all done being pet. We feel he has the potential to be quite affectionate, once he settles in.He's a solid eater who prefers pat/soft food. He does seem have arthritis in his hips, and is a bit of a wobbly walker. But that doesn't seem to hamper his ability to get around, or get up on the sofa or bed to get a nap." 
+      },
+      {
+        "id": 11,
+        "name": "Swifty",
+        "adoption": "Cat",
+        "summary": ["Male * Young  *  Seattle,WA"],
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=1qEWbH8R4I5Vpw6pxZs4w7Bu0kZaIIdIz",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Male",
+        "age": "Young",
+        "position": "Seattle, WA",
+        "information": "ADOPTION PENDING. We are no longer accepting applications for this pet***If you're looking for a loyal and cuddly companion, look no further than Swifty. Though it may take a little while for him to warm up to you, once you've earned his trust, you'll be rewarded with his incredibly sweet and silly personality. It took about a month for him to get comfortable with his foster mom, and now he keeps her company all day while she works from home and often sleeps on her bed at night. This guy loves curling up with (or on top of) a good book, taking naps with his human, and chasing his own tail. Swifty would do best in a quiet household with a patient owner who is willing to give him time to settle in." 
+      },
+      {
+      "id": 18,
+        "name": "Seth",
+        "adoption": "Cat",
+        "summary": ["Famale * Young * Seattle,WA"],
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=1_p26k7NJdouHzC9ex8RMJ_eCQLCp3d21",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Famale",
+        "age": "Young",
+        "position": "Seattle, WA",
+        "information": "This kitty is waiting patiently in foster care for your call. Please contact the Foster Care Hotline at 206-684-0685 to arrange a meeting. Thank you!Seth is an affectionate, people-oriented cat with a story to tell. After being with his owner for most of his 12 years, Seth - a lanky boy with a silky black coat and a regal face - went missing for a month. He returned with some scrapes and a missing white whisker. Unfortunately, his owner was unable to keep him but brought him to the safety of the shelter. Seth was shy at first in his foster home, jumping at loud noises and avoiding looking out the windows. But from the first day he loved being with people, curling up on laps, purring, and pushing at hands, hoping for pets. He comes when you call, is a good eater, and has perfect litter box habits. He is more adventuresome every day and plays a mean game of soccer with his toys (and the stray cherry tomato). Please call the foster hotline if you are interested in meeting a terrific cat.Seth has several fractured canine teeth which will required medical attention in the next 3-6 months, with possible dental extractions. He currently does not display symptoms of infection or pain and this is likely from an older injury. Typically these types of injuries results in dead teeth that become loose and infected over time, which is why extraction is recommended before they become abscessed and painful, this is something you will need to work with your vet to get done.." 
+      },
+      {
+        "id": 19,
+        "name": "Pica",
+        "adoption": "Cat",
+        "summary": ["Male * Young  * Seattle,WA"],
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=1Ed9_tuFkOM-azkN86YRuMrVVb_LDWhN2",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Male",
+        "age": "Young",
+        "position": "Seattle, WA",
+        "information": "This kitty is waiting patiently in foster care for your call. Please contact the Foster Care Hotline at 206-684-0685 to arrange a meeting. Thank you! If I could rub against you right now to introduce myself, I would. My name is Pica, and when I'm happy I just rub against you and everything in the house to lay claim over what makes me so content. You'll never see me give a tail swish though, because I'm a Manx/tabby mix and don't have a tail! I have a little stump of a tail which you can see go happily up and down as I practice my favorite hobby - bird watching.I can be both lovey and independent. There are times where I do nothing but watch out for birds and squirrels, and other times where I can't be bothered to even glance at the window because I'm happily dozing on your lap or in any sun spot I can reach. I love getting some good stretches in too and will reach up high on a wall or vertical scratching post to lengthen myself. When I stretch out, I'll show you my belly which I enjoy having rubbed, and I'll only playfully trap your hand some of the time.I enjoy jumping on high window sills and would love a cat tree to play on. I hope you'll find time to play with me and the string toy. If not, I enjoy playing with soft toys or chewing on catnip sticks (I may even try to nibble on your ferns if you don't tell me otherwise). I've even worn a cat harness and leash! Though I haven't been outside, I'd be happy to have a family who could teach me about the outside world.Oh yeah, I also have a urinary tract disease called FIC which impacts my ability to pee. It only flares up when I get stressed out (like transitioning to a new home). I have prescription wet and dry food which helps keep me regular and not having problems. In times of transition, I may also take a little bit of liquid medication which helps keep me calm enough to pee - I never put up a fuss when getting medicine, especially if I get a little treat afterward. If I'm stressed out, I may have an accident outside my box though there are things you could do to make sure that doesn't happen. However, I've had good manners with my foster family and they'd love to tell you a bit more about how to keep me happy and healthy.I'd do best in a home with a cat savvy parent who doesn't mind keeping an eye on my health needs. I wouldn't mind having children around and could even live with another cat if I was introduced very gradually and there would be enough litter box space for me. Just to help keep my stress down, I'd appreciate you having a spare room where I could start out slowly for a couple of days. I'm also happy if you were working from home right now since I most enjoy having my family around.If you're interested in meeting me and could love my tail-less antics, just give me a call! My foster parents live in Ballard and could even do a virtual meet-and-greet!" 
+      },
+      {
+        "id": 4,
+        "name": "Tut",
+        "adoption": "Cat",
+        "summary": ["Famale  * Young Adult * Seattle,WA"],
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=1wS9RPq_HMrnGMHvACVTuXpSWK25flu7R",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Famale",
+        "age": "Young",
+        "position": "Seattle, WA",
+        "information": "**Important Note** You won't find this kitty at the shelter. This kitty is waiting patiently in foster care for your call. Please contact the Foster Care Hotline at 206-684-0685 to arrange a meeting. Thank you! What's up I'm Tut. Although if you ask me, King Tut better suits my sovereign persona. Once upon a time I was a Craigslist cat, but I clawed my way up the ranks and built a tough reputation in my two short years of life. Due to that, you're going to need to keep me inside, no ifs, ands, or buts. I will pledge my loyalty to my new owners, but I'm not fond of strangers and when outside my wildcat instincts get me into trouble.My optimal life would consist of one or two cat-savvy adults that understand my need for playtime and personal space. I'm a play-hard, nap-hard kind of guy. I also have been known to enjoy the existence of those creatures you call dogs'. I'm what you would call a dog person. Or dog cat, if you will. Other cats don't do it for me.I love pets once I've warmed up to you (which really doesn't take too long) and will come to you for them. I will certainly meow for attention, but also don't bother me when I'm trying to nap. I am currently using my litter box well and have a great appetite!" 
+      },
+     
+      {
+        "id": 6,
+        "name": "Huey",
+        "adoption": "Others",
+        "summary": ["Male  *  Young  *   Seattle,WA"],
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=1nhZjPtd6WZ5d75dTCtgE_QKUECH-fHMl",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Male",
+        "age": "Young Duck",
+        "position": "Seattle, WA",
+        "information": "Huey and Dewey are too well-named ducks who care about each other very much! They are two peas in a pod! Wherever you see one, you’ll see the other as they quack happily in the yard. These two are familiar with humans and get along great with other ducks. They will make a great addition to any flock!." 
+      },
+      {
+        "id": 7,
+        "name": "Ashley",
+        "adoption": "Others",
+        "summary": ["Male  *  Young  *  Seattle,WA"],
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=10JhhluQ9GCQHPdHkmr-HvpN0yZnw6hPX",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Male",
+        "age": "Young Muscovy Duck",
+        "position": "Seattle, WA",
+        "information": "Ashley is one of our wonderful muscovy ducks! Muscovy ducks have great personalities and are brave around humans. Ashley likes to stick around when there is company and be apart of the scene. She also loves to swim in the pond and preen her feathers on the shore. Muscovy ducks are fervent slug-eaters if you have a garden that needs tending and make all-around fantastic pets. They also hiss instead of quack so they can be good for adopters who live next to quiet-loving neighbors. Ashley would love to be in a flock with other muscovy ducks. If you would like to adopt Ashley, fill out an adoption questionnaire today!." 
+      },
+      {
+        "id": 9,
+        "name": "Kelku",
+        "adoption": "Others",
+        "summary": "Young Rabit  * Female  * Seattle, WA",
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=1zFam2stQyouaNmNLfu_S6KBbGGvs9PGf",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Male",
+        "age": "Young",
+        "position": "Seattle, WA",
+        "information": "Marty is a happy, healthy boy at 63lbs with his only hardship being that he simply loves people TOO much. Marty suffered from separation anxiety in his past home because all he wants is to be with people – but he is a confused little boy who needs confidence building and training catered to his specific needs (something we are preemptively working on at the sanctuary).One of Marty’s Caregivers said, “The first time I took Marty outside, I laid out in the grass, trying to get him to enjoy the outdoors but all he wanted to do was lay on top of me. He would come up and stretch his whole body up mine and rest his chin on my chin. I think Marty needs to be with someone who understands that they are his WHOLE WORLD. When he loves, he loves hard and sometimes it’s difficult for him.” But we all agree, that’s also one of the best things about Marty." 
+      },
+
+      {
+        "id": 12,
+        "name": "Erin",
+        "adoption": "Others",
+        "summary": ["Male Guinea Pig  *  Young  *  Seattle,WA"],
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=1NzwIaWmvIVNMA36AHHllA9bf8XsbVp6D",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Male",
+        "age": "Young Guinea Pig",
+        "position": "Seattle, WA",
+        "information": "Erin is an amazing, cute, and handsome Abyssinian guinea pig! Bart is very curious and loves exploring in his x-pen. He loves hanging out on your lap getting pets! Although Bart is a little shy, once he gets to know you he will gladly eat his favorite fresh food - bell peppers, endive, and parsley - from your hands, but he prefers to eat in the privacy of his hut. Bart likes to start the day by sitting on top of his pigloo and taking in the scene! Bart likes pets on his ears, nose and the top of his head! Bart is available for adoption but is currently being adored in foster care.*************************************************HOW TO ADOPT: Copy & paste the link below for a fillable pdf adoption application:https://bit.ly/2JaWMGMEmail your completed application to: animalcare@seattle.gov**************************************************GUINEA PIG CARE:Seattle Animal Shelter Guinea Pig Care Guide: https://bit.ly/2UxLX70You are expected to make a lifetime commitment to your guinea pig, and they should be treated as an integral part of the family. The primary caregiver must be a responsible adult, and young children should always be supervised when interacting with your guinea pig and instructed on proper approach and handling.Guinea pigs like lots of roaming space. The larger the cage, the more active they can be! Use plenty of lining material like paper bedding, or scraps of fleece. Guinea pigs eat timothy hay. Provide fresh water every day. Guinea pigs also need hay-based pellets that are vitamin C fortified. Fresh green salads are leafy greens.Your guinea pig will need its nails trimmed twice a month and an annual vet check-up. Guinea pigs typically live six to nine years." 
+      },
+      {
+        "id": 13,
+        "name": "Jack",
+        "adoption": "Others",
+        "summary": ["Male Rabbit *  Netherland Dwarf & American Mix  *  Seattle,WA"],
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=1kP1I7IWXpi-rkauBeuy0l2HA3PM7Cgkw",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Male",
+        "age": "Young Rabbit",
+        "position": "Seattle, WA",
+        "information": "Meet Jack, a senior gentleman rabbit who is a handsome and patient companion. I do not have the energy that I used to have, so a quiet surrounding and a slower lifestyle would work best for me. I can sit on your lap while you read or watch a movie, so it is easy to give me a half-hour patting session every day. I do like my naps often and will snore a little, but that would only make you like me more and certainly will not keep you up at night. I have earned my senior rights and my diet reflects that - I enjoy Critical Care and Timothy Hay pellets, with a little bit of fruit and vegetables as treats. I do have my aches and pains and will need arthritis medicine every day, but I am a star in taking my meds and there is no need to convince me. While I like to keep myself clean, there are areas close to my bottom that I can no longer reach easily, so a little help is appreciated to keep up my appearance. My current schedule includes a warm spa bath for my bottom every other day along with medicated mousse to help me soothe my tender skin. I am fond of this ritual and my foster mom thinks that I have the best manners.Jack is available for adoption but he is currently being adored in foster care.*************************************************HOW TO ADOPT: Copy & paste the link below for a fillable pdf adoption application:https://bit.ly/2JaWMGMEmail your completed application to: animalcare@seattle.gov**************************************************HOUSE RABBIT CARE:Seattle Animal Shelter Rabbit Care Guide: https://bit.ly/2J8YCIwPlease note that rabbits require large indoor spaces, not a hutch or small cage. There are simply too many dangers outside for a rabbit to thrive and survive. You are expected to make a lifetime commitment to your house rabbit, and they should be treated as an integral part of the family. The primary caregiver must be a responsible adult, and young children should always be supervised when interacting with your rabbit and instructed on proper approach and handling. Rabbits are intelligent and social animals; they do best with a rabbit companion and need daily interaction with their human friends. Rabbits should be fed unlimited hay, a little high-quality hay pellets, and a fresh leafy green salad.Your rabbit will need regular nail trims and annual vet checks. With proper care and lots of love, rabbits can live to be 10-12 years old." 
+      },
+      {
+        "id": 14,
+        "name": "Milo",
+        "adoption": "Others",
+        "summary": ["Female  *  Guinea Pig   *  Seattle,WA"],
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=1wcLuXuoDdV-6a9AiutX1fbIqDfhod-nE",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Female",
+        "age": "Young Guinea Pig",
+        "position": "Seattle, WA",
+        "information": "Milo is a super handsome, butterscotch-colored guinea pig who loves munching on his hay and running through his big plastic tubes. Milo is a bit shy, but he's also very curious and friendly. Once he gets to know you, he will gladly eat his favorite fresh food - bell peppers, endive, baby chard, and parsley - from your hands! He loves gentle attention and will greet you with cute sounds when he is hungry or wants a treat!Milo is available for adoption but is currently being adored in foster care.*************************************************HOW TO ADOPT: Copy & paste the link below for a fillable pdf adoption application:https://bit.ly/2JaWMGMEmail your completed application to: animalcare@seattle.gov**************************************************GUINEA PIG CARE:Seattle Animal Shelter Guinea Pig Care Guide: https://bit.ly/2UxLX70You are expected to make a lifetime commitment to your guinea pig, and they should be treated as an integral part of the family. The primary caregiver must be a responsible adult, and young children should always be supervised when interacting with your guinea pig and instructed on proper approach and handling.Guinea pigs like lots of roaming space. The larger the cage, the more active they can be! Use plenty of lining material like paper bedding, or scraps of fleece. Guinea pigs eat timothy hay. Provide fresh water every day. Guinea pigs also need hay-based pellets that are vitamin C fortified. Fresh green salads are leafy greens.Your guinea pig will need its nails trimmed twice a month and an annual vet check-up. Guinea pigs typically live six to nine years." 
+      },
+      {
+        "id": 8,
+        "name": "Record1",
+        "adoption": "Records",
+        "summary": "if you have a garden that needs tending and make all-around fantastic pets",
+        "img": {
+          "url": "https://drive.google.com/uc?export=view&id=1KWtSv0z0Xg798QQ5il6t4Io9m0lZQDVM",
+          "height": 200,
+          "width": 400
+        },
+        "gender": "Male",
+        "age": "Young",
+        "position": "Seattle, WA",
+        "information": "Marty is a happy, healthy boy at 63lbs with his only hardship being that he simply loves people TOO much. Marty suffered from separation anxiety in his past home because all he wants is to be with people – but he is a confused little boy who needs confidence building and training catered to his specific needs (something we are preemptively working on at the sanctuary).One of Marty’s Caregivers said, “The first time I took Marty outside, I laid out in the grass, trying to get him to enjoy the outdoors but all he wanted to do was lay on top of me. He would come up and stretch his whole body up mine and rest his chin on my chin. I think Marty needs to be with someone who understands that they are his WHOLE WORLD. When he loves, he loves hard and sometimes it’s difficult for him.” But we all agree, that’s also one of the best things about Marty." 
+      }
+      
+  
+  ]
+  

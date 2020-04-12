@@ -1,0 +1,10 @@
+.p{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: auto;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
