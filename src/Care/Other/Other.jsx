@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, useHistory, useRouteMatch, Switch, Route, Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import articles from '../data/GeneralPetCare.json';
+import articles from '../../data/OtherPets.json';
 import CareListItem from '../CareListItem.jsx';
 
-const General = () => {
+const Other = () => {
   let { url } = useRouteMatch();
   let history = useHistory();
 
@@ -25,8 +25,8 @@ const General = () => {
   );
 };
 
-General.propTypes = {
+Other.propTypes = {
   articles: PropTypes.array.isRequired
 };
 
-export default General;
+export default Other;
