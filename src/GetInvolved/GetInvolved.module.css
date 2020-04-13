@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.img{
+    border: 5px solid #99bdd7;
+    margin-top:4px;
+    width: 500px;
+    height: auto;
+}
+
+header{
+    font-family: Helvetica;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.link{
+    color: #2544ff;
+}
+
+

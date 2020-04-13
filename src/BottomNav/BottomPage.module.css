@@ -1,0 +1,47 @@
+.container{
+    color: #797d80;
+}
+
+header{
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 1rem;
+}
+
+li{
+    margin: 0rem;
+    list-style: none;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.link{
+    color: #2544ff;
+}
+
+
+h4:before {
+    content:"- ";
+}
+
+/*h4{*/
+/*    display: list-item;*/
+/*    list-style-type: disc;*/
+/*    list-style-position: inside;*/
+/*}*/
+
+strong{
+    margin-left: 0rem;
+}
+
+@media(min-width: 600px){
+    header{
+        font-size:2rem;
+    }
+    li{
+        font-size: 1.2rem;
+    }
+    li strong{
+        font-size: 1.5rem;
+    }
+}
