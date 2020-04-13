@@ -1,9 +1,10 @@
 .container{
     width: auto;
     text-align: center;
-    font-size: 1.5rem;
 }
-
+header{
+    margin-top: 1rem;
+}
 .img{
     height: 20rem;
     margin-left: auto;
@@ -39,9 +40,6 @@ li strong{
 }
 
 @media(min-width: 600px) {
-    .container{
-        font-size: 3rem;
-    }
     .img{
         height: 30rem;
     }

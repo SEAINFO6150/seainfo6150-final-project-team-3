@@ -4,7 +4,7 @@ import styles from "./Home.module.css"
 const Home = () => {
     return (
         <div className={styles.container}>
-            <header>Planing to Adopt a Pet?</header>
+            <header>Planning to Adopt a Pet?</header>
             <a href ="/adoption">
             <img className={styles.img} src="/images/ADOPTION-DOG.jpg" alt="ADOPTION-DOG" />
             </a>
