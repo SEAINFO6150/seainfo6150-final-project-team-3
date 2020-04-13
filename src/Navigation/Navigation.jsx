@@ -26,7 +26,9 @@ import Event3 from "../News/NewsDetails/Event3";
 import AskPet from "../Adoption/AskPet/AskPet.jsx";
 import Terms from "../BottomNav/Terms";
 import FAQs from "../BottomNav/FAQs";
-
+import ForDeveloper from "../BottomNav/ForDeveloper";
+import Partnership from "../BottomNav/Partnership";
+import GetInvolved from "../GetInvolved/GetInvolved";
 
 const Navigation = () => {
     return (
@@ -55,7 +57,7 @@ const Navigation = () => {
                             <Link to="/AboutUS">About Us</Link>
                         </li>
                         <li>
-                            <Link to="/baz">Get Involved</Link>
+                            <Link to="/GetInvolved">Get Involved</Link>
                         </li>
                 </nav>
             </div>
@@ -83,6 +85,9 @@ const Navigation = () => {
                     <Route path="/askPet" exact component={AskPet}/>
                     <Route path="/Terms" exact component={Terms}/>
                     <Route path="/FAQs" exact component={FAQs}/>
+                    <Route path="/ForDeveloper" exact component={ForDeveloper}/>
+                    <Route path="/Partnership" exact component={Partnership}/>
+                    <Route path="/GetInvolved" exact component={GetInvolved}/>
                     <Route path="/adoption/:adoption"
                            exact
                            render = {({match}) => (
@@ -113,7 +118,7 @@ const Navigation = () => {
                         <Link to="/FAQs">FAQs</Link>
                     </li>
                     <li>
-                        <Link to="/Terms">Partnerships</Link>
+                        <Link to="/Partnership">Partnerships</Link>
                     </li>
                 </ul>
                 <ul>
@@ -121,7 +126,7 @@ const Navigation = () => {
                         <Link to="/Terms">Terms & Services</Link>
                     </li>
                     <li>
-                        <Link to="/Home">For Developers</Link>
+                        <Link to="/ForDeveloper">For Developers</Link>
                     </li>
                     <li>
                         <Link to="/ContactUS">Contact Us</Link>
