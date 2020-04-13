@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useHistory, useRouteMatch, Switch, Route } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import articles from './data/CareList.json';
+import articles from '../data/CareList.json';
 import CareListItem from './CareListItem.jsx';
 
 const CareList = () => {

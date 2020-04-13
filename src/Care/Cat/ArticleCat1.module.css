@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    align-items: center;
+}
+
+.container img{
+    margin-top:1px;
+    width: 75%;
+    height: auto;
+    
+}
+
+header{
+    font-family: Helvetica;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.link{
+    color: #2544ff;
+}

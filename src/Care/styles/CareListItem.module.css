@@ -1,0 +1,35 @@
+.box{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  flex-flow: column nowrap;
+}
+
+.option{
+  display: flex;
+  vertical-align: middle;
+
+}
+.h1{
+  color: #a68782;
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.p{
+  font-family: Helvetica;
+  font-size: 20px;
+  margin-top: 1px;
+
+}
+
+.image{
+  box-shadow: 0 10px 20px 0 rgb(109, 104, 104); 
+  padding:5px;
+  width:400px;
+  height:350px;
+}

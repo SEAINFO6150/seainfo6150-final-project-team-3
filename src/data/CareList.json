@@ -1,40 +1,40 @@
 {
     "181122102925-statue-of-liberty-crown": {
-      "slug": "general",
-      "title": "General Pet Care",
-      "shortText": "Covering a wide range of important topics for pet parents.",
+      "slug": "dog",
+      "title": "Dog Care",
+      "shortText": "Learn more to provide the best care for your canine companion.",
       "pubDate": "Thu, 22 Nov 2018 15:12:24 GMT",
       "pubYear": "2018",
       "author": "Kate Farley",
       "image": {
         
-        "_url": "https://drive.google.com/uc?export=view&id=1WFje9Z_Fix97haffPI9tg3AwPxIfxjK-",
-        "_height": "619",
-        "_width": "1100"
-      }
-    },
-    "170321135754-airport-security-line": {
-      "slug": "dog",
-      "title": "Dog Care",
-      "shortText": "Learn more to provide the best care for your canine companion.",
-      "pubDate": "Wed, 21 Nov 2018 22:57:55 GMT",
-      "pubYear": "2018",
-      "author": "Cathryn Lindsey",
-      "image": {
         "_url": "https://drive.google.com/uc?export=view&id=1m1S-knoUG-h95Pd-iP8EM_TggxRAe0CK",
         "_height": "619",
         "_width": "1100"
       }
     },
-    "181119170125-ploughgate-creamery-butter-ball": {
-      "slug":"cat",
+    "170321135754-airport-security-line": {
+      "slug": "cat",
       "title": "Cat Care",
       "shortText": "Helpful information for looking after cats of all ages.",
+      "pubDate": "Wed, 21 Nov 2018 22:57:55 GMT",
+      "pubYear": "2018",
+      "author": "Cathryn Lindsey",
+      "image": {
+        "_url": "https://drive.google.com/uc?export=view&id=1E_0bE_FIxLl0_r-M9E9DGmgK99SjlwlJ",
+        "_height": "619",
+        "_width": "1100"
+      }
+    },
+    "181119170125-ploughgate-creamery-butter-ball": {
+      "slug":"other",
+      "title": "Other pets Care",
+      "shortText": "Crucial information for other pets parents should know to protect their pets.",
       "pubDate": "Wed, 21 Nov 2018 13:17:49 GMT",
       "pubYear": "2018",
       "author": "Guerra Clemons",
       "image": {
-        "_url": "https://drive.google.com/uc?export=view&id=1E_0bE_FIxLl0_r-M9E9DGmgK99SjlwlJ",
+        "_url": "https://drive.google.com/uc?export=view&id=1BpYrCEFjoGJOiNY1_iBHI-bcht-EB5ag",
         "_height": "619",
         "_width": "1100"
       }

@@ -7,12 +7,20 @@ import Error from "../Error/Error";
 import News from "../News/News";
 import ContactUS from "../ContactUS/ContactUS";
 import Care from "../Care/Care";
-import General from "../Care/General/General";
 import Dog from "../Care/Dog/Dog";
 import Cat from "../Care/Cat/Cat";
-import ArticleAllergic from "../Care/General/ArticleAllergic";
-import ArticleDogCare from "../Care/Dog/ArticleDogCare";
-import ArticleCatCare from "../Care/Cat/ArticleCatCare";
+import Other from "../Care/Other/Other";
+import ArticleDogCare1 from "../Care/Dog/ArticleDogCare1";
+import ArticleDogCare2 from "../Care/Dog/ArticleDogCare2";
+import ArticleDogCare3 from "../Care/Dog/ArticleDogCare3";
+import ArticleDogCare4 from "../Care/Dog/ArticleDogCare4";
+import ArticleCatCare1 from "../Care/Cat/ArticleCatCare1";
+import ArticleCatCare2 from "../Care/Cat/ArticleCatCare2";
+import ArticleCatCare3 from "../Care/Cat/ArticleCatCare3";
+import ArticleCatCare4 from "../Care/Cat/ArticleCatCare4";
+import HorseCare from "../Care/Other/HorseCare";
+import RabbitCare from "../Care/Other/RabbitCare";
+import MouseCare from "../Care/Other/MouseCare";
 import AdoptionPage from "../Adoption/AdoptionPage";
 import PetDetailPage from "../Adoption/PetDetailPage";
 import AdoptionList from "../Adoption/AdoptionList.jsx";
@@ -66,12 +74,20 @@ const Navigation = () => {
                 <Switch>
                     <Route path="/Home" exact component={Home} />
                     <Route path="/Adoption" exact component={AdoptionList} />
-                    <Route path="/care/general_cat_care" exact component={ArticleCatCare} />
-                    <Route path="/care/general_dog_care" exact component={ArticleDogCare} />
-                    <Route path="/care/general_allergies" exact component={ArticleAllergic} />
-                    <Route path="/care/general" exact component={General} />
+                    <Route path="/care/cat_care_1" exact component={ArticleCatCare1} />
+                    <Route path="/care/cat_care_2" exact component={ArticleCatCare2} />
+                    <Route path="/care/cat_care_3" exact component={ArticleCatCare3} />
+                    <Route path="/care/cat_care_4" exact component={ArticleCatCare4} />
+                    <Route path="/care/dog_care_1" exact component={ArticleDogCare1} />
+                    <Route path="/care/dog_care_2" exact component={ArticleDogCare2} />
+                    <Route path="/care/dog_care_3" exact component={ArticleDogCare3} />
+                    <Route path="/care/dog_care_4" exact component={ArticleDogCare4} />
+                    <Route path="/care/other_1" exact component={HorseCare} />
+                    <Route path="/care/other_2" exact component={MouseCare} />
+                    <Route path="/care/other_3" exact component={RabbitCare} />
                     <Route path="/care/dog" exact component={Dog} />
                     <Route path="/care/cat" exact component={Cat} />
+                    <Route path="/care/other" exact component={Other} />
                     <Route path="/Care" exact component={Care} />
                     <Route path="/News" exact component={News} />
                     <Route path="/News/NewsDetails/News1" exact component={News1}/>
