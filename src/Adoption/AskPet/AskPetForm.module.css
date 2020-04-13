@@ -22,10 +22,6 @@ input {
     
 }
 
-/* input[placeholder]{
-    font-size: 18px;
-} */
-
 input[type="radio"]{
     display: inline-block;
     position: relative;
