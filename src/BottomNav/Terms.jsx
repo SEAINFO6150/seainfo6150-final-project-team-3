@@ -3,7 +3,7 @@ import React from 'react';
 const Terms = () =>{
     return(
         <div>
-            This is temrs page
+            This is Terms test page
         </div>
     )
 }
