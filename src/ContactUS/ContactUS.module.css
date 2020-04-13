@@ -1,19 +1,29 @@
 .container {
-    display: flex;
     padding: 2rem;
     align-items: center;
 }
+.container ul{
+
+display: grid;
+grid-template-columns: 1fr 2fr;
+margin-left:0px;
+}
+
+.contactInfo ul{
+
+display:inline;
+}
 .ContactUsImage{
-    border: 5px solid #99bdd7;
-    margin-top:4px;
-    width: 300px;
+    border: 5px solid #79bfe9;
+    margin-top:14px;
+    width: 400px;
     height: auto;
 }
 .contactInfo{
-    padding: 1rem;
+    margin-left:10px;
 }
 
-.contactInfo header{
+.container header{
     font-family: Helvetica;
     font-size: 2rem;
     font-weight: bold;
@@ -27,8 +37,9 @@
     color: blue;
 }
 
-@media(min-width: 600px){
-    .ContactUsImage {
-        width: 500px;
-    }
+@media(max-width: 900px){
+
+.container ul{
+grid-template-columns: 1fr;
+}
 }
