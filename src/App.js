@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "./Navigation/Navigation";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 // here is some external content. look at the /baz route below

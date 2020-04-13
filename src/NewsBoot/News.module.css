@@ -5,37 +5,18 @@
     min-height: 100%;
     font-family: Helvetica;
     font-size: 10px;
-    display: grid;
 }
 
 .newsul{
-
 padding: 0px;
     margin: 0px;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .newsul li{
 
-padding-left: 1px;
-padding-right: 1px;
 list-style-type: none;
     margin: 18px;
     border: 0px solid #cc0000;
 }
-
-
-@media (max-width: 1400px) {
-.newsul{
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 900px) {
-.newsul{
-        grid-template-columns: 1fr;
-    }
-}
-
-

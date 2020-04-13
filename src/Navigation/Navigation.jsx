@@ -20,6 +20,11 @@ import AboutUS from "../AboutUS/AboutUS";
 import News1 from "../News/NewsDetails/News1";
 import News2 from "../News/NewsDetails/News2";
 import News3 from "../News/NewsDetails/News3";
+import News4 from "../News/NewsDetails/News4";
+import News5 from "../News/NewsDetails/News5";
+import News6 from "../News/NewsDetails/News6";
+
+
 import Event1 from "../News/NewsDetails/Event1";
 import Event2 from "../News/NewsDetails/Event2";
 import Event3 from "../News/NewsDetails/Event3";
@@ -74,6 +79,10 @@ const Navigation = () => {
                     <Route path="/News/NewsDetails/Event1" exact component={Event1} />
                     <Route path="/News/NewsDetails/Event2" exact component={Event2} />
                     <Route path="/News/NewsDetails/Event3" exact component={Event3} />
+                     <Route path="/News/NewsDetails/News4" exact component={News4}/>
+                     <Route path="/News/NewsDetails/News5" exact component={News5} />
+                     <Route path="/News/NewsDetails/News6" exact component={News6} />
+
                     <Route path="/AboutUS" exact component={AboutUS} />
                     <Route path="/ContactUS" exact component={ContactUS} />
 
