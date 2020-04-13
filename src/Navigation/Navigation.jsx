@@ -24,6 +24,7 @@ import Event1 from "../News/NewsDetails/Event1";
 import Event2 from "../News/NewsDetails/Event2";
 import Event3 from "../News/NewsDetails/Event3";
 import AskPet from "../Adoption/AskPet/AskPet.jsx";
+import Terms from "../BottomNav/Terms";
 
 
 const Navigation = () => {
@@ -57,6 +58,7 @@ const Navigation = () => {
                         </li>
                 </nav>
             </div>
+
             <div>
                 <Switch>
                     <Route path="/Home" exact component={Home} />
@@ -70,20 +72,21 @@ const Navigation = () => {
                     <Route path="/Care" exact component={Care} />
                     <Route path="/News" exact component={News} />
                     <Route path="/News/NewsDetails/News1" exact component={News1}/>
-                   <Route path="/News/NewsDetails/News2" exact component={News2} />
-                   <Route path="/News/NewsDetails/News3" exact component={News3} />
+                    <Route path="/News/NewsDetails/News2" exact component={News2} />
+                    <Route path="/News/NewsDetails/News3" exact component={News3} />
                     <Route path="/News/NewsDetails/Event1" exact component={Event1} />
                     <Route path="/News/NewsDetails/Event2" exact component={Event2} />
                     <Route path="/News/NewsDetails/Event3" exact component={Event3} />
                     <Route path="/AboutUS" exact component={AboutUS} />
                     <Route path="/ContactUS" exact component={ContactUS} />
                     <Route path="/askPet" exact component={AskPet}/>
+                    <Route path="Terms" exact component={Terms}/>
 
                     <Route path="/adoption/:adoption"
                            exact
                            render = {({match}) => (
                                <AdoptionPage adoption={match.params.adoption}/>
-                                )
+                           )
                            }
                     />
                     <Route
@@ -93,7 +96,7 @@ const Navigation = () => {
                             <PetDetailPage id={match.params.id}/>
                         )}
                     />
-                    
+
                     <Route component={Home} />
                 </Switch>
             </div>
@@ -103,18 +106,18 @@ const Navigation = () => {
             <nav className={styles.footerNav}>
                 <ul>
                     <li>
-                        <Link to="/">About Us</Link>
+                        <Link to="/Terms">About Us</Link>
                     </li>
                     <li>
-                        <Link to="/Home">FAQs</Link>
+                        <Link to="/Terms">FAQs</Link>
                     </li>
                     <li>
-                        <Link to="/Home">Partnerships</Link>
+                        <Link to="/Terms">Partnerships</Link>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <Link to="/Home">Terms & Services</Link>
+                        <Link to="/Terms">Terms & Services</Link>
                     </li>
                     <li>
                         <Link to="/Home">For Developers</Link>

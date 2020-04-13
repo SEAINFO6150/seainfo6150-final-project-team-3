@@ -14,7 +14,7 @@ const Home = () => {
                 </header>
                 <ul>
                     <li>
-                        <strong>1. Determine how much time you have to devote to your new pet every day. </strong>Cats are usually lower maintenance than dogs. And small animals like gerbils, guinea pigs, and hamsters can require even less work. But remember, even the littlest guys require daily care. If you can’t commit to providing fresh water, food, cleaning, and love every day, you might not be ready for a pet.
+                        <strong>1. Determine how much time you have to devote to your new pet every day.</strong> Cats are usually lower maintenance than dogs. And small animals like gerbils, guinea pigs, and hamsters can require even less work. But remember, even the littlest guys require daily care. If you can’t commit to providing fresh water, food, cleaning, and love every day, you might not be ready for a pet.
                     </li>
                     <li>
                         <strong>2. Figure out how much you can spend on your pet yearly without going over your budget. </strong>Dogs and cats are likely to be more expensive because they require yearly vet visits, vaccinations, heartworm and flea protection, and lots of food. A hamster eats less and doesn’t usually require vaccinations.
