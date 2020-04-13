@@ -25,6 +25,7 @@ import Event2 from "../News/NewsDetails/Event2";
 import Event3 from "../News/NewsDetails/Event3";
 import AskPet from "../Adoption/AskPet/AskPet.jsx";
 import Terms from "../BottomNav/Terms";
+import FAQs from "../BottomNav/FAQs";
 
 
 const Navigation = () => {
@@ -80,8 +81,8 @@ const Navigation = () => {
                     <Route path="/AboutUS" exact component={AboutUS} />
                     <Route path="/ContactUS" exact component={ContactUS} />
                     <Route path="/askPet" exact component={AskPet}/>
-                    <Route path="Terms" exact component={Terms}/>
-
+                    <Route path="/Terms" exact component={Terms}/>
+                    <Route path="/FAQs" exact component={FAQs}/>
                     <Route path="/adoption/:adoption"
                            exact
                            render = {({match}) => (
@@ -106,10 +107,10 @@ const Navigation = () => {
             <nav className={styles.footerNav}>
                 <ul>
                     <li>
-                        <Link to="/Terms">About Us</Link>
+                        <Link to="/AboutUS">About Us</Link>
                     </li>
                     <li>
-                        <Link to="/Terms">FAQs</Link>
+                        <Link to="/FAQs">FAQs</Link>
                     </li>
                     <li>
                         <Link to="/Terms">Partnerships</Link>
