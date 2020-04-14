@@ -4,22 +4,30 @@ import styles from './AdoptionList.module.css'
 
 const AdoptionList = () => {
     return (
-        <div className = {styles.box}>
+        <div className = {styles.container}>
             <div className={styles.option}>
-                <header className={styles.title}>Find a dog</header>
-                <a href ="/adoption/Dog"><img className = {styles.image} src="/images/DogMain.jpg" href></img></a>
+                <a href ="/adoption/Dog">
+                    <header className={styles.title}>Find a dog</header>
+                    <img className = {styles.image} src="/images/DogMain.jpg" href></img>
+                </a>
             </div>
             <div className={styles.option}>
-                <header className={styles.title}>Find a Cat</header>
-                <a href ="/adoption/Cat"><img className = {styles.image} src="/images/CatMain.jpg" href></img></a>
+                <a href ="/adoption/Cat">
+                    <header className={styles.title}>Find a Cat</header>
+                    <img className = {styles.image} src="/images/CatMain.jpg" href></img>
+                </a>
             </div>
             <div className={styles.option}>
-                <header className={styles.title}>Find other pets</header>
-                <a href ="/adoption/Others"><img className = {styles.image} src="/images/other.jpg" href></img></a>
+                <a href ="/adoption/Others">
+                    <header className={styles.title}>Find other pets</header>
+                    <img className = {styles.image} src="/images/other.jpg" href></img>
+                </a>
             </div>
             <div className={styles.option}>
-                <header className={styles.title}>Adoption Records</header>
-                <a href ="/adoption/Records"><img className = {styles.image} src="/images/records.jpg" href></img></a>
+                <a href ="/adoption/Records">
+                    <header className={styles.title}>Adoption Records</header>
+                <img className = {styles.image} src="/images/records.jpg" href></img>
+               </a>
             </div>
         </div>
     );
