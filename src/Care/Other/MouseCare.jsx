@@ -11,8 +11,7 @@ const MouseCare = () => {
                     </li>
                     <div><img className={styles.img} src='../images/mouse.jpg'/></div>
                     <li>
-                    Dog's will eat all sorts of things, but eating dirt might be one that gives you cause for concern. However, eating dirt is a fairly common behavior among dogs. When pooches eat non-food items, whether dirt, grass, rocks, sticks or garbage, they may be diagnosed with a condition called pica, which just means that your dog is eating non-food items. If the only non-food item they eat is dirt, then they might have what is referred to as geophagia, according to Wag! But is your dog's dirt eating just a strange habit or should you be concerned?
-                    </li>
+                    Most rabbit-parents know that rabbits are not cheap pets — their medical care as exotic animals can add up, and they seem to love chewing on your most expensive items (clothes, furniture, equipment, etc.). However, there are several easy ways to reduce the costs of their daily care and manage your rabbit expenses more effectively. Here are just a few:                    </li>
                     <li>
                         <strong>Why Is My Dog Eating Dirt? Possible Explanations</strong>
                     </li>
