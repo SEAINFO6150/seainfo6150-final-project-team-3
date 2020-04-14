@@ -40,6 +40,7 @@ import FAQs from "../BottomNav/FAQs";
 import ForDeveloper from "../BottomNav/ForDeveloper";
 import Partnership from "../BottomNav/Partnership";
 import GetInvolved from "../GetInvolved/GetInvolved";
+import Records from "../Adoption/AdoptionRecords.jsx";
 
 const Navigation = () => {
     return (
@@ -111,6 +112,7 @@ const Navigation = () => {
                     <Route path="/ForDeveloper" exact component={ForDeveloper}/>
                     <Route path="/Partnership" exact component={Partnership}/>
                     <Route path="/GetInvolved" exact component={GetInvolved}/>
+                    <Route path="/Records" exact component={Records}/>
                     <Route path="/adoption/:adoption"
                            exact
                            render = {({match}) => (
