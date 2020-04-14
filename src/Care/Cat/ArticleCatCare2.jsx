@@ -6,7 +6,7 @@ const ArticleCatCare2 = () => {
         <div className={styles.container}>
             <ul className={styles.ul}> 
                 <li>
-                    <header>Cat Grooming Tips</header>
+                    <h1>Cat Grooming Tips</h1>
                 </li>
                 <div><img className={styles.img} src='../images/cat2.jpeg'/></div>
                 <li>

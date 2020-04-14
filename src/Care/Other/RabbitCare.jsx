@@ -6,7 +6,7 @@ const RabbitCare = () => {
         <div className={styles.container}>
             <ul className={styles.ul}> 
                 <li>
-                    <header>5 Tips for Saving Money on Rabbit Care</header>
+                    <h1>5 Tips for Saving Money on Rabbit Care</h1>
                 </li>
                 <div><img className={styles.img} src='../images/rabbit.jpg'/></div>
                 <li>Most rabbit-parents know that rabbits are not cheap pets — their medical care as exotic animals can add up, and they seem to love chewing on your most expensive items (clothes, furniture, equipment, etc.). However, there are several easy ways to reduce the costs of their daily care and manage your rabbit expenses more effectively. Here are just a few:
