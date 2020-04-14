@@ -130,12 +130,9 @@ const Navigation = () => {
                 </Switch>
             </div>
 
-
+            <img className={styles.bottomImg} src="/images/BottomLogo.png" alt="BottomLogo" />
             {/*bottom navigation*/}
             <div className={styles.footerNav}>
-                <div>
-                    <img className={styles.logoImg} src="/images/petsLogo.png" alt="logo" />
-                </div>
                 <nav>
                     <ul>
                         <li>
@@ -158,8 +155,10 @@ const Navigation = () => {
                         </li>
                     </ul>
                 </nav>
-                <div>
-                    ©2020 All trademarks are owned by Yali Sun, Cong Zhao, Xiaozi Xuan and Yan Lei Or used with permission.
+                <div className={styles.claim}>
+                    ©2020 NEU Web Design Team 3: Animal Adoption
+                    <br/>
+                    Team Member: Yali Sun, Cong Zhao, Xiaozi Xuan and Yan Lei
                 </div>
             </div>
         </Router>

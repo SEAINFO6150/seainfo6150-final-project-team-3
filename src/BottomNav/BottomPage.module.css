@@ -1,17 +1,16 @@
 .container{
-    color: #797d80;
+    color: #69647b;
 }
 
-header{
+.container header{
     font-weight: bold;
     font-family: Helvetica;
     font-size: 1rem;
 }
 
-li{
+.container li{
     margin: 0rem;
     list-style: none;
-    padding-bottom: 1rem;
     font-size: 1rem;
 }
 
@@ -20,28 +19,27 @@ li{
 }
 
 
-h4:before {
-    content:"- ";
+h4{
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
 }
 
-/*h4{*/
-/*    display: list-item;*/
-/*    list-style-type: disc;*/
-/*    list-style-position: inside;*/
-/*}*/
-
-strong{
+.container li strong{
     margin-left: 0rem;
+    color: #69647b;
+    font-weight: bold;
 }
 
 @media(min-width: 600px){
-    header{
+    .container header{
         font-size:2rem;
     }
-    li{
-        font-size: 1.2rem;
+    .container li{
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
     }
-    li strong{
+    .container li strong{
         font-size: 1.5rem;
     }
 }

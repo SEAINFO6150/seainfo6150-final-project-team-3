@@ -8,7 +8,7 @@
 .option{
     display: grid;
     margin:20px;
-    border: 2px white;   
+    border: 2px #ead0d1;
 }
 .option header{
     color: #69647b;
@@ -18,10 +18,11 @@
 }
 
 .image{
-    box-shadow: 0 10px 20px 0 rgb(109, 104, 104); 
+    box-shadow: 0 10px 20px 0 rgb(109, 104, 104);
     padding:5px;
     width:250px;
     height:200px;
+    border:5px solid #d8caaf;
 }
 
 

@@ -1,7 +1,6 @@
 .NavContainer{
     background-image: linear-gradient(to bottom,  #ead0d1, #ead0d1, #dfd6d7 100%);
     display: grid;
-    grid-template-rows: 3fr 1fr;
 }
 .LogoDiv{
     display: grid;
@@ -11,13 +10,13 @@
 }
 .logoImg{
     width: auto;
-    height: 10rem;
+    height: 6rem;
 }
 
 .slogan{
     color: #69647b;
     font-family: Serif;
-    font-size: 3.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
@@ -29,9 +28,9 @@
 }
 
 .navBar li {
-    font-size: 20px;
+    font-size: 12px;
     float:left;
-    padding: 20px;
+    padding: 10px;
     list-style: none;
 }
 .navBar li:hover{
@@ -42,9 +41,15 @@
     text-decoration: none;
 }
 
+.bottomImg{
+    width: auto;
+    height: 10rem;
+    display: block;
+    margin: -2rem auto -4.5rem auto;
+}
+
 .footerNav{
     display: grid;
-    grid-template-rows: 1fr 1fr;
     justify-content: space-around;
     align-items: center;
     background-image: linear-gradient(to bottom, #dfd6d7, #ead0d1, #ead0d1 100%);
@@ -53,15 +58,35 @@
 .footerNav ul{
     display: flex;
     list-style: none;
-    font-size: 1.2rem;
+    margin-bottom: 0rem;
 }
 
 .footerNav li{
     padding: 20px;
+    font-size: 1.2rem;
 }
 
 
 .footerNav li a{
     color: #69647b;
 }
+.claim{
+    color: #5f524a;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+@media(min-width: 700px) {
+    .slogan {
+        font-size: 3rem;
+    }
+    .logoImg {
+        width: auto;
+        height: 10rem;
+    }
+    .navBar li {
+        font-size: 20px;
+        padding: 20px;
+    }
 
+}

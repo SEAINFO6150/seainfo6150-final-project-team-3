@@ -3,15 +3,13 @@
     align-items: center;
 }
 .container ul{
-
-display: grid;
-grid-template-columns: 1fr 2fr;
-margin-left:0px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left:0px;
 }
 
 .contactInfo ul{
-
-display:inline;
+    display:inline;
 }
 .ContactUsImage{
     border: 5px solid #79bfe9;
@@ -38,8 +36,7 @@ display:inline;
 }
 
 @media(max-width: 900px){
-
-.container ul{
-grid-template-columns: 1fr;
-}
+    .container ul{
+        grid-template-columns: 1fr;
+    }
 }
