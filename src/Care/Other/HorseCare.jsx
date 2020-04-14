@@ -10,23 +10,29 @@ const HorseCare = () => {
                         <header>Horse Care</header>
                     </li>
                     <div><img className={styles.img} src='../images/horse.jpg'/></div>
-                    <li>
-                    Dog's will eat all sorts of things, but eating dirt might be one that gives you cause for concern. However, eating dirt is a fairly common behavior among dogs. When pooches eat non-food items, whether dirt, grass, rocks, sticks or garbage, they may be diagnosed with a condition called pica, which just means that your dog is eating non-food items. If the only non-food item they eat is dirt, then they might have what is referred to as geophagia, according to Wag! But is your dog's dirt eating just a strange habit or should you be concerned?
+                    <li>Are you bringing an equine friend into your family, or looking to brush up on your horse care skills? Read on for tips to keep your horse healthy and happy.
                     </li>
                     <li>
-                        <strong>Why Is My Dog Eating Dirt? Possible Explanations</strong>
+                        <strong>Nutritional Needs</strong>
+                    </li>
+                    <li>A horse’s digestive system is made to process large quantities of grass, which is high in fiber and water. The basic diet for most horses should be grass and good quality hay, free of dust and mold. In most cases, plenty of fresh, clean, unfrozen water should be available at all times, even if the horse only drinks once or twice a day.
                     </li>
                     <li>
-                    Dogs eat dirt for a number of reasons. The desire for munching on soil might be boredom or stress, or it could simply be because they smelled something tasty mixed in the mud. But it could also signal an underlying health problem or a lack of proper nutrition, says the American Kennel Club(AKC). Compulsive geophagia might be a sign that your pooch has one of the following issues.
+                        <strong>Vaccinations and Deworming</strong>
                     </li>
+                    <li>All horses need vaccinations and most need regular deworming. The specifics should be discussed with an equine veterinarian. Every horse should be protected against tetanus. Other vaccines are routinely given for Eastern and Western equine encephalomyelitis, equine influenza, rhinopneumonitis (equine herpes) and rabies. Vaccines for West Nile Virus are also available. Ask your veterinarian if other vaccines are appropriate for your horse.</li>
                     <li>
-                    Anemia in dogs is a condition marked by low blood cell count or hemoglobin levels. According to CertaPet, anemia can be caused by a nutritional imbalance. An anemic dog may instinctively turn to eating dirt in an attempt to restore any deficiencies causing this condition. The only way to reliably diagnose anemia is through blood work tests.                    </li>
+                        <strong>Housing, Rest and Exercise</strong>
+                    </li>    
+                    <li>Contrary to common thought, straight stalls are not necessarily worse than box stalls if the horses are together, and spend most of their day outside. Horses isolated in box stalls can develop behavioral problems from lack of companionship, exercise and mental stimulation. Whenever possible, horses should be outside with other horses every day.</li>
                     <li>
-                    Even without anemia, a nutritional imbalance alone could spur your pooch to gobble dirt. Eating dirt can be a sign that your dog isn't getting enough of the essential minerals they need for good health. Or, a hormonal issue could be preventing your dog from absorbing the minerals and nutrients in their food. Nutritional imbalances are very rare in healthy dogs, so make sure to talk to your veterinarian about choosing the best dog food for your pup.                    </li>
+                        <strong>Extreme Weather Precautions</strong>
+                    </li>  
+                    <li>Unless it is very wet and windy, horses tolerate cold much better than heat and humidity. If they can’t sweat, they can’t get rid of heat buildup in their bodies. If the sum of the temperature in degrees Fahrenheit and the relative humidity in percentage is over 130, you should be cautious about exercising your horse. If it is over 150, you should probably rest in the shade, and if it is over 180, most horses should not work at all.</li>
                     <li>
-                    Dogs might also turn to eating dirt in an attempt to soothe an upset stomach or rumbling bowels. However, if your dog is having tummy issues, they're more likely to eat grass, says the AKC. It's possible that in a dog's zeal to wolf down the grass, some dirt might get added to the mix.                    </li>
-                    <li>If none of these suggestions work, you might need to seek help from a professional trainer or dog behavior specialist to break this habit.</li>
-                    <li>While eating dirt might be common among dogs, it isn't safe to let it continue. The sooner you act to prevent this behavior and get to the bottom of why it's happening, the better it will be for your dog's health and well-being.</li>
+                        <strong>Teeth</strong>
+                    </li>
+                    <li>Horses’ teeth grow continuously. Uneven wear can lead to sharp points and edges that cause pain and difficulty chewing. A horse’s teeth should be checked once or twice a year and “floated” (to make them smoother) by a veterinarian or well-trained equine dentist as needed. Dental problems, from painful points to rotting teeth, may cause difficulty chewing or “quidding,” which occurs when food falls out of the mouth. Other signs of dental disease may include foul breath, undigested hay in the stools or discomfort from the bit or noseband. Dental disease can lead to choke, colic and weight loss.</li>
                 </ul>
             </div>
         </div>

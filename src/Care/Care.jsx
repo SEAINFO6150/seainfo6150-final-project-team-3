@@ -4,11 +4,7 @@ import styles from "./styles/CareList.module.css";
 
 const Care = () => {
     return (
-        <ul className={styles.container}>
-            <li className={styles.content}>
-                <CareList />
-            </li>
-        </ul>
+        <CareList/>
     )
 }
 

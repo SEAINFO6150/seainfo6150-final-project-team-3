@@ -10,22 +10,23 @@ const MouseCare = () => {
                         <header>Mouse Care</header>
                     </li>
                     <div><img className={styles.img} src='../images/mouse.jpg'/></div>
-                    <li>
-                    Most rabbit-parents know that rabbits are not cheap pets — their medical care as exotic animals can add up, and they seem to love chewing on your most expensive items (clothes, furniture, equipment, etc.). However, there are several easy ways to reduce the costs of their daily care and manage your rabbit expenses more effectively. Here are just a few:                    </li>
-                    <li>
-                        <strong>Why Is My Dog Eating Dirt? Possible Explanations</strong>
+                    <li>A mouse measures in at about 3 1/2 inches, not including tail, and weighs just 1/2 to one ounce. While white (albino) mice are the most common type found in pet stores, fancy mice can be up to double the size, and come in a wide variety of coat colors and types, from curly and shiny to silver and cinnamon. If well cared for, mice typically live one three years.
+                    </li>
+                    <li>Mice are curious, charming pets, and will be active at various times throughout the day. However, they are fragile and should be treated gently, and children caring for them should always be supervised by an adult.
                     </li>
                     <li>
-                    Dogs eat dirt for a number of reasons. The desire for munching on soil might be boredom or stress, or it could simply be because they smelled something tasty mixed in the mud. But it could also signal an underlying health problem or a lack of proper nutrition, says the American Kennel Club(AKC). Compulsive geophagia might be a sign that your pooch has one of the following issues.
+                        <strong>Housing</strong>
                     </li>
+                    <li>Mice are very social with members of their own kind, and females will do especially well in a group. Males can be kept together if introduced at a young age—if introduced when adults, they will fight. If you plan to keep several males together, however, be certain that you’ve provided enough room. Do not house males and females together, since mice breed quickly—and often—with large litters.
+                    </li>
+                    <li>Don’t forget the furniture! Provide small boxes or flower pots to hide in, and cardboard tubes for your mice to chew and run through. You can also add a tree branch for them to climb on. Most mice will enjoy running on an exercise wheel, so be sure to get yours one. Make sure that the wheel has a solid surface without wire rungs, so their tails cannot get caught while running. Plastic habitats—the kind designed for hamsters—will also work for mice. However, since mice are smaller than hamsters, you may need to put small branches in the tubes so the mice can climb up and down. Keep in mind, however, that these cages can be more difficult to clean. The ASPCA does not recommend that you keep your mice in a wire cage made for hamsters. These models may have bars spaced too far apart to keep mice inside. If a person can stick their fingers through the bars, a young mouse could probably sneak out as well.</li>
                     <li>
-                    Anemia in dogs is a condition marked by low blood cell count or hemoglobin levels. According to CertaPet, anemia can be caused by a nutritional imbalance. An anemic dog may instinctively turn to eating dirt in an attempt to restore any deficiencies causing this condition. The only way to reliably diagnose anemia is through blood work tests.                    </li>
-                    <li>
-                    Even without anemia, a nutritional imbalance alone could spur your pooch to gobble dirt. Eating dirt can be a sign that your dog isn't getting enough of the essential minerals they need for good health. Or, a hormonal issue could be preventing your dog from absorbing the minerals and nutrients in their food. Nutritional imbalances are very rare in healthy dogs, so make sure to talk to your veterinarian about choosing the best dog food for your pup.                    </li>
-                    <li>
-                    Dogs might also turn to eating dirt in an attempt to soothe an upset stomach or rumbling bowels. However, if your dog is having tummy issues, they're more likely to eat grass, says the AKC. It's possible that in a dog's zeal to wolf down the grass, some dirt might get added to the mix.                    </li>
-                    <li>If none of these suggestions work, you might need to seek help from a professional trainer or dog behavior specialist to break this habit.</li>
-                    <li>While eating dirt might be common among dogs, it isn't safe to let it continue. The sooner you act to prevent this behavior and get to the bottom of why it's happening, the better it will be for your dog's health and well-being.</li>
+                        <strong>Diet</strong>
+                    </li>
+                    <li>Mice will do well on a good commercial rodent chow, either in block or pellet form. You can find this food at pet supply stores and feed stores, just be sure the formula you select contains at least 16 percent protein and 18 percent fiber, but not more than 4 percent fat.</li>
+                    <li>The ASPCA recommends offering small amounts of fresh fruit and vegetables to your mice every day as treats. Peas, broccoli, carrots, apples and bananas are good foods to start with, but you may need to experiment to find your pets’ favorites. Please don’t overdo it, though—mice have tiny tummies!</li>
+                    <li>Fresh, clean water should be available at all times. A water bottle with a drinking tube that attaches to the side of the cage is the best way to go.</li>
+                    <li>Do not give your mice cabbage, chocolate, corn, candy, junk food, peanuts, uncooked beans or onions.</li>
                 </ul>
             </div>
         </div>
