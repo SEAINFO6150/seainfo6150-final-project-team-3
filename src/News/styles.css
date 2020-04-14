@@ -1,29 +1,28 @@
 .tab-list {
-  border-bottom: 1px solid #ccc;
-  padding-left: 0;
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
 }
 
 .tab-list-item {
-font-size: 16px;
-  display: inline-block;
-  list-style: none;
-  margin-bottom: -1px;
-  padding: 1rem 1.75rem;
+    font-size: 16px;
+    display: inline-block;
+    list-style: none;
+    margin-bottom: -1px;
+    padding: 1rem 1.75rem;
 }
 
 .tab-list-active {
-  background-color: #FEF1F3;
-  border: solid #ccc;
-  border-width: 1px 1px 0 1px;
-   border-top-left-radius: 15px;
-   border-top-right-radius: 15px;
-
-      margin-top: 7px;
-      margin-left: 16px;
+    background-color: #FEF1F3;
+    border: solid #ccc;
+    border-width: 1px 1px 0 1px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 7px;
+    margin-left: 16px;
 }
 
 .tabs{
-display: inline-grid;
+    display: inline-grid;
 
 padding:1px;
     flex-flow: column nowrap;

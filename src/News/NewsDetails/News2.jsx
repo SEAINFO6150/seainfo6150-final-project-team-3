@@ -5,7 +5,7 @@ import Data from "../../data/NewsData.json";
 const News2 = props => {
   return (
       <div className={styles.container}>
-            <h1>{Data.NewsItemData.b.head}</h1>
+            <header>{Data.NewsItemData.b.head}</header>
                 <ul className={styles.newsDetailsul}>
                    <li>
                       <img className={styles.newsImage} src= {Data.NewsItemData.b.url} alt={"dogb"} />
