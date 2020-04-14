@@ -1,55 +1,88 @@
 .container {
-
-    padding: 2rem;
-    align-items: center;
-       display: grid;
-            grid-template-columns: 1fr 2fr;
-}
-
-.aboutUsImage{
-    border: 5px solid #99bdd7;
-    margin-top:4px;
-    width: 400px;
-    height: auto;
-    display: block;
-      margin-left: auto;
-      margin-right: auto;
-}
-.aboutInfo{
     padding: 1rem;
+    align-items: center;
 }
 
-.aboutInfo header{
-    font-family: Helvetica;
-    font-size: 2rem;
-    font-weight: bold;
+.container ul{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left:0px;
 }
+
 .aboutInfo ul{
-    list-style: none;
-    margin: 0px;
-        display: grid;
-        grid-template-columns: 1fr;
+
+    margin-left:0px;
+    margin-right:0px;
+       padding: 0px;
+       display: grid;
+       grid-template-columns: 1fr;
+       margin-left:20px;
+       margin-right:20px;
 }
 
 .aboutInfo li{
-    list-style: none;
+    padding-bottom: 1rem;
+    align-items: center;
+        list-style-type: none;
+}
+
+.aboutInfo p{
+    color: #69647b;
+    margin: 0px;
+    font-size: 1.5rem;
+}
+
+.aboutInfo strong{
+    color: #69647b;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.aboutUsImage{
+    border: 5px solid #CAE1FF;
+    margin-top:10px;
+    margin-right:40px;
+    width: 400px;
+    height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom:5px;
 
 }
 
-
-
-
-.aboutInfo a{
-    color: blue;
+.aboutInfo{
+    margin-left:10px;
+    margin-right:80px;
 }
 
-@media(max-width: 900px){
-
-.container {
-
-    grid-template-columns: 1fr;
+.container header{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #69647b;
+    font-family: Helvetica;
+    margin-bottom:10px;
 }
 
-
-
+@media(max-width: 700px){
+    .aboutUsImage{
+        width: 250px;
+        height: auto;
+        margin-bottom:10px;
+    }
+    .container header{
+        font-size: 1.5rem;
+        }
+    .aboutInfo p{
+        font-size: 1.2rem;
+    }
+    .aboutInfo strong{
+        font-size: 1.3rem;
+    }
+    .aboutInfo{
+        margin-left:10px;
+        margin-right:20px;
+    }
 }
