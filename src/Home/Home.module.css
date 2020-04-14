@@ -1,8 +1,9 @@
 .container{
+    color: #69647b;
     width: auto;
     text-align: center;
 }
-header{
+.processDiv header{
     margin-top: 1rem;
 }
 .img{
@@ -13,12 +14,11 @@ header{
 }
 
 .container header{
-    color: #797d80;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 .processDiv{
-    color: #797d80;
     border:solid 2px;
 }
 
@@ -33,8 +33,8 @@ header{
     list-style: none;
 }
 
-li strong{
-    color: #797d80;
+.processDiv li strong{
+    color: #69647b;
     font-size: 1rem;
     font-weight: bold;
 }
@@ -55,7 +55,7 @@ li strong{
         font-size: 1.5rem;
     }
 
-    li strong{
+    .processDiv li strong{
         font-size: 1.5rem;
     }
 

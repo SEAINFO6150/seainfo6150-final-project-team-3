@@ -9,7 +9,7 @@ const ArticleCatCare2 = () => {
                     <li>
                         <header>Cat Grooming Tips</header>
                     </li>
-                    <div><img className={styles.img} src='../images/cat2.jpg'/></div>
+                    <div><img className={styles.img} src='../images/cat2.jpeg'/></div>
                     <li>
                     A clean cat is a happy cat, and we're here to help! From nail trims to bathing, a little maintenance goes a long way. Read on to find out how to keep your kitty’s eyes, ears, teeth, skin and fur healthy and clean. Please note: There are some cats who do not tolerate being groomed. If your cat fights the grooming process, and there is some potential that injury could occur to your cat or yourself, please make an appointment with a professional groomer or a veterinarian to have your cat groomed.                    </li>
                     <li>

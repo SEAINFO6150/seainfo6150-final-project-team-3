@@ -6,7 +6,7 @@ const AskPet =(props) => {
     return (
         <div>
             <header className = {styles.header}>
-                Ask about your Pet
+                Ask about this Pet ！！！
             </header><br/>
             <form>
                 <AskPetForm/>

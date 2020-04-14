@@ -2,13 +2,17 @@
     display: flex;
     align-items: center;
     padding: 2rem;
-    align-items: center;
+    color: #69647b;
+    font-family: Helvetica;
+    word-wrap:break-word;
+    max-width: 1000px;
 }
 
 .container img{
-    margin-top:1px;
-    width: 75%;
-    height: auto;
+    margin-top:8px;
+    margin-bottom: 20px;
+    width: 50rem;
+    height: 20rem;
     
 }
 

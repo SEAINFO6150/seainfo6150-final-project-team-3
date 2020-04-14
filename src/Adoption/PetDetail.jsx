@@ -7,27 +7,22 @@ const PetDetail = props => {
     return (
     <section>
         <div className={styles.box}>
-            <div>
-                <h1 className = {styles.h1}>{props.pet.name}</h1>
-                <div>
-                    <a href="/askPet">
-                        <p><button className = {styles.button}>Ask about this Pet</button></p>
-                        <br/>
-                        <picture className = {styles.image}>
-                            <source srcset={props.pet.img.url}/>
-                            <img  className = {styles.image} src={props.pet.img.url} alt={props.pet.name}/>
-                        </picture>
-                    </a>
-                </div>
-            </div>
+            <picture>
+                <source srcset={props.pet.img.url}/>
+                <a href="/askPet"><img className = {styles.image} src={props.pet.img.url} alt={props.pet.name}/></a>
+            </picture>
 
             <div className = {styles.summary}>
+                <h1 className = {styles.h1}>{props.pet.name}</h1>
                 
-                <h2>Gender </h2>{props.pet.gender}
+                <h2 className = {styles.h2}>Gender </h2>{props.pet.gender}
                 
-                <h2>Age</h2>{props.pet.age}
+                <h2 className = {styles.h2}>Age</h2>{props.pet.age}
                 
-                <h2>Position</h2>{props.pet.position}
+                <h2 className = {styles.h2}>Position</h2>{props.pet.position}
+                <a href="/askPet">
+                    <h2 className = {styles.link}>Ask about this Pet</h2>
+                </a>
 
             </div>
         </div>

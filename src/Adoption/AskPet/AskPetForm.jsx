@@ -42,45 +42,46 @@ export default class AskPetForm extends Component {
     };
 
     render() {
-        const genders = ['I agree to receive marketing and other communications from Petfinder.'];
-        const subscribes = ['I’d like to receive email and other communications from Purina and its brands.'];
         const surveys = ['Yes', 'No'];
         return (
             <form onSubmit={this.formSubmit}>
                 <div className = {styles.container}>
-                    <fieldset>
+                    <fieldset className = {styles.fieldset}>
                         <label>
                             First name :<br/>
                         </label>
                         <input name="FirstName" type="text" value={this.state.FirstName}
                             onChange={this.operation} required="required"/><br/>
-                        <label>
-                            Last name :<br/>
-                        </label>
-                        <input name="LastName" type="text" value={this.state.LastName}
-                            onChange={this.operation} required="required"/><br/>
-
-                        <label>
-                            Email Address :<br/>
-                        </label>
-                        <input name="email" type="text" value={this.state.email}
-                            onChange={this.operation} required="required"/>
-                        {this.state.emailError}<br/>
-
-                        </fieldset>
-                        <fieldset>
-
+                        <br/>
                         <label>
                             Phone Number:<br/>
                         </label>
                         <input name="number" type="text"  value={this.state.number}
                             onChange={this.operation}/>
                         {this.state.phoneNumberError}<br/>
+                        <br/>
                         <label>
                             Country :<br/>
                         </label>
                         <input name="country" type="text" value={this.state.country}
                             onChange={this.operation} required="required"/><br/>
+
+                        </fieldset>
+                        <fieldset className = {styles.fieldset}>
+
+                        <label>
+                            Last name :<br/>
+                        </label>
+                        <input name="LastName" type="text" value={this.state.LastName}
+                            onChange={this.operation} required="required"/><br/>
+                        <br/>
+                        <label>
+                            Email Address :<br/>
+                        </label>
+                        <input name="email" type="text" value={this.state.email}
+                            onChange={this.operation} required="required"/>
+                        {this.state.emailError}<br/>
+                        <br/>
                         <label>
                            ZIP Code<br/>
                         </label>
@@ -88,14 +89,14 @@ export default class AskPetForm extends Component {
                             onChange={this.operation}/>
                     </fieldset>
 
-                    <fieldset>
-                        <label>YOUR MESSAGE</label><br/>
-                        <textarea name="suggestion" rows="10" cols="30" placeholder=" I wondering if ..." value={this.state.suggestion} onChange={this.operation}/>
+                    <fieldset className = {styles.fieldset}>
+                        <label>YOUR MESSAGE（optional）</label><br/>
+                        <textarea className = {styles.textarea } name="suggestion" rows="10" cols="30" placeholder=" I wondering if ..." value={this.state.suggestion} onChange={this.operation}/>
                     </fieldset>
                     <div>
-                        <lable> Do you have pets in your home?</lable><br/>
+                        <lable className = {styles.fieldset}> Do you have pets in your home?</lable><br/>
                     {surveys.map((survey, i) =>
-                            <label key={i}>
+                            <label className = {styles.fieldset} key={i}>
                                 <input
                                     name="survey"
                                     value={survey}
@@ -106,46 +107,11 @@ export default class AskPetForm extends Component {
                             </label>
                         )}
                         <br/>
-                       
-                    </div>
-
-                    <div>
+                        <br/><button className = {styles.button} type="submit">Send Message</button>
                    
-                        {genders.map((gender, i) =>
-                            <label key={i}>
-                                <input
-                                    name="gender"
-                                    value={gender}
-                                    onChange={this.operation}
-                                    type="radio"
-                                    required="required"/>
-                                {gender}
-                            </label>
-                        )}
-
-                        <br/>
-                        {subscribes.map((subscribe, i) =>
-                            <label key={i}>
-                                <input
-                                    name="subscribe"
-                                    value={subscribe}
-                                    onChange={this.operation}
-                                    type="radio"/>
-                                {subscribe}
-                            </label>
-                        )}
-                    </div>
-
-                  
-                    <div>
-                    <button className = {styles.button} type="submit">Send Message</button>
                     </div>
 
                 </div>
-               
-
-                
-              
                 
             </form>
         )

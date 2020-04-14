@@ -19,7 +19,7 @@
 .image {
     width:95%;
     height:95%;
-    border: 3px solid #79bfe9; 
+    border: 5px solid #CAE1FF;
 }
 
 
@@ -29,11 +29,6 @@
     }
 }
 @media(min-width:800px){
-    .image{
-        width:90%;
-        height:90%;
-    }
-   
     .option header{
         font-size: 2em;
     }

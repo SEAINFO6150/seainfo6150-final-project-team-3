@@ -1,39 +1,88 @@
 .adoption{
     margin:10px;
     padding: 10px;
-    font-size: 25px;
     display: flow;
     justify-content: space-between;
     box-shadow: 0 10px 12px 0 dimgray; 
-    color: #a68782;
 }
 
 
 .petName{
     margin:8px;
     padding:5px;
-    color: #a68782;
+    color: #69647b;
     font-size: 30px;
 }
 
 .image{
     margin:3px;
-    padding:5px;
-    width:95%;
-    height:85%;
-
-}
-.details{
-    color: #a68782;
+    /* width:95%;
+    height:85%; */
+    border: 5px solid #CAE1FF;
 }
 
 .p{
     margin:5px;
     font-size:20px;
-    color: #a68782;  
+    color: #69647b;
 }
 
+@media(min-width:400px){ 
+    .petName{
+        font-size: 15px;
+    }
 
+    .image{
+        width:80px;
+        height: 73px;
+    }
+    .p{
+        font-size: 10px;
+    }
+}
+
+@media(min-width: 600px){ 
+    .petName{
+        font-size: 20px;
+    }
+
+    .image{
+        margin:2px;
+        width:150px;
+        height:137px;
+    }
+    .p{
+        font-size: 15px;
+    }
+    
+}
+@media(min-width:800px){
+    .petName{
+        font-size: 25px;
+    }
+    .image{
+        margin:3px;
+        width:200px;
+        height:183px;
+    }
+    .p{
+        font-size: 18px;
+    }
+}
+
+@media(min-width:1000px){
+    .petName{
+        font-size: 30px;
+    }
+    .image{
+        margin:3px;
+        width:260px;
+        height:230px;
+    }
+    .p{
+        font-size: 20px;
+    }
+}
 
 
 

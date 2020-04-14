@@ -24,7 +24,7 @@ const AdoptionList = () => {
                 </a>
             </div>
             <div className={styles.option}>
-                <a href ="/adoption/Records">
+                <a href ="/Partnership">
                     <header className={styles.title}>Adoption Records</header>
                 <img className = {styles.image} src="/images/records.jpg" href></img>
                </a>
