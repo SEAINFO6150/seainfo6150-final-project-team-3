@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    color: #69647b;
+    font-family: Helvetica;
+    word-wrap:break-word;
+    max-width: 1000px;
+}
+
+.container img{
+    margin-top:8px;
+    margin-bottom: 20px;
+    width: auto;
+    height: 30rem;
+}
+
+header{
+    font-family: Helvetica;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.link{
+    color: #2544ff;
+}

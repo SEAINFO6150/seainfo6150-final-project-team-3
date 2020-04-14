@@ -3,6 +3,7 @@ import { BrowserRouter as Router, useHistory, useRouteMatch, Switch, Route, Link
 import PropTypes from 'prop-types';
 import articles from '../../data/CatCare.json';
 import CareListItem from '../CareListItem.jsx';
+import styles from '../styles/CareList.module.css'
 
 const Cat = () => {
   let { url } = useRouteMatch();
@@ -11,17 +12,22 @@ const Cat = () => {
   const handleEnter = careId => {
     history.push(`${url}/${careId}`);
   };
+
   const articleListData = Object.values(articles);
+
   return (
-    <div className="article-list-container">
+    <ul className={styles.ul}>
       {articleListData.map((article, idx) => (
-        <CareListItem
-          article={article}
-          key={idx}
-          enterDetail={careId => handleEnter(careId)}
-        />
-      ))}
-    </div>
+        <li>
+            <CareListItem
+              article={article}
+              key={idx}
+              enterDetail={careId => handleEnter(careId)}
+            />
+        </li>
+        ))
+      }
+    </ul>
   );
 };
 
