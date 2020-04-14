@@ -27,18 +27,17 @@
     margin:0rem;
 }
 
-.navBar li {
-    font-size: 12px;
+.navBar a {
+    font-size: 1rem;
     float:left;
-    padding: 10px;
-    list-style: none;
-}
-.navBar li:hover{
-    background-color: #bfbfbf;
-}
-.navBar li a {
+    padding: 0.2rem 0.5rem;
     color: #a68782;
     text-decoration: none;
+    margin-left: 5px;
+}
+.navBar a:hover, .navBar a:active, .navBar a[tabindex]:focus{
+    background-color: #c1cbd7;
+
 }
 
 .bottomImg{
@@ -55,26 +54,24 @@
     background-image: linear-gradient(to bottom, #dfd6d7, #ead0d1, #ead0d1 100%);
 }
 
-.footerNav ul{
-    display: flex;
-    list-style: none;
+.footerBar{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.footerBar a{
+    color: #69647b;
+    padding: 6px;
+    font-size: 0.8rem;
     margin-bottom: 0rem;
 }
 
-.footerNav li{
-    padding: 20px;
-    font-size: 1.2rem;
-}
-
-
-.footerNav li a{
-    color: #69647b;
-}
 .claim{
     color: #5f524a;
     text-align: center;
+    padding-top: 0rem;
     padding-bottom: 1rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 @media(min-width: 700px) {
     .slogan {
@@ -84,9 +81,16 @@
         width: auto;
         height: 10rem;
     }
-    .navBar li {
-        font-size: 20px;
-        padding: 20px;
+    .navBar a{
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+    .footerNav a{
+        padding: 10px;
+        font-size: 1.2rem;
     }
 
+    .claim{
+        font-size: 1rem;
+    }
 }
