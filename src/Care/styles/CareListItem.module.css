@@ -15,11 +15,13 @@
 }
 
 .h1 {
-  font-size: 30px;
+  font-size: 25px;
   font-style: normal;
   margin-top: 30px;
   margin-left: 450px;
   margin-right: 450px;
+  color: #69647b;
+  font-family: Helvetica;
 }
 
 .p {
@@ -27,6 +29,9 @@
   margin-top: 1px;
   margin-left: 450px;
   color: #69647b;
+  word-wrap:break-word;
+  max-width: 600px;
+  font-family: Helvetica;
 }
 
 .img {
