@@ -1,26 +1,21 @@
-.container{
+.container {
     display: flex;
     align-items: center;
     padding: 2rem;
     color: #69647b;
+    font-size: normal;
     font-family: Helvetica;
     word-wrap:break-word;
     max-width: 1000px;
 }
 
-.container img{
+.container img {
     margin-top:8px;
     margin-bottom: 20px;
     width: auto;
     height: 25rem;
 }
 
-header{
-    font-family: Helvetica;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.link{
-    color: #2544ff;
+.ul li {
+    margin-bottom: 10px;
 }
