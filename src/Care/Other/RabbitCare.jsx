@@ -10,23 +10,26 @@ const RabbitCare = () => {
                         <header>5 Tips for Saving Money on Rabbit Care</header>
                     </li>
                     <div><img className={styles.img} src='../images/rabbit.jpg'/></div>
-                    <li>
-                    Dog's will eat all sorts of things, but eating dirt might be one that gives you cause for concern. However, eating dirt is a fairly common behavior among dogs. When pooches eat non-food items, whether dirt, grass, rocks, sticks or garbage, they may be diagnosed with a condition called pica, which just means that your dog is eating non-food items. If the only non-food item they eat is dirt, then they might have what is referred to as geophagia, according to Wag! But is your dog's dirt eating just a strange habit or should you be concerned?
+                    <li>Most rabbit-parents know that rabbits are not cheap pets — their medical care as exotic animals can add up, and they seem to love chewing on your most expensive items (clothes, furniture, equipment, etc.). However, there are several easy ways to reduce the costs of their daily care and manage your rabbit expenses more effectively. Here are just a few:
                     </li>
                     <li>
-                        <strong>Why Is My Dog Eating Dirt? Possible Explanations</strong>
+                        <strong>Hay: Buy in bulk from the farm</strong>
                     </li>
+                    <li>Buying small bags of hay from pet stores can get expensive fast! Buying hay directly from a farmer can cut costs way down. Ordering hay in 50-lb. boxes online from farms is already a bargain compared to the small bags from pet stores, but taking a trip to a local farmer to buy a bale is really the way to go. A bale of Timothy hay, which can last several months, typically costs about $10.</li>
                     <li>
-                    Dogs eat dirt for a number of reasons. The desire for munching on soil might be boredom or stress, or it could simply be because they smelled something tasty mixed in the mud. But it could also signal an underlying health problem or a lack of proper nutrition, says the American Kennel Club(AKC). Compulsive geophagia might be a sign that your pooch has one of the following issues.
+                        <strong>Vegetables: Ask your grocery store for veggie scraps</strong>
                     </li>
+                    <li>Ask staffers at your local grocery store to collect their vegetable scraps for you. Grocery stores throw away tons of perfectly good veggies, including carrot, beet, and radish tops, or the outer layers of lettuces, cabbages, and other greens. Farmers’ markets are also a fantastic source for free vegetables. Be sure to never use vegetables that look wilted or old and wash everything extra carefully. Another idea is to try growing your own mint (which grows like a weed), parsley or other herbs in your garden. Be sure to check which plants are toxic to rabbits before feeding anything new.</li>
                     <li>
-                    Anemia in dogs is a condition marked by low blood cell count or hemoglobin levels. According to CertaPet, anemia can be caused by a nutritional imbalance. An anemic dog may instinctively turn to eating dirt in an attempt to restore any deficiencies causing this condition. The only way to reliably diagnose anemia is through blood work tests.                    </li>
+                        <strong>The litter box: Get creative</strong>
+                    </li>
+                    <li>A litter box is really just a plastic box, so why pay extra for a fancy cat litter pan from a pet store when you can grab a shallow plastic box from Walmart for half the price?</li>
                     <li>
-                    Even without anemia, a nutritional imbalance alone could spur your pooch to gobble dirt. Eating dirt can be a sign that your dog isn't getting enough of the essential minerals they need for good health. Or, a hormonal issue could be preventing your dog from absorbing the minerals and nutrients in their food. Nutritional imbalances are very rare in healthy dogs, so make sure to talk to your veterinarian about choosing the best dog food for your pup.                    </li>
-                    <li>
-                    Dogs might also turn to eating dirt in an attempt to soothe an upset stomach or rumbling bowels. However, if your dog is having tummy issues, they're more likely to eat grass, says the AKC. It's possible that in a dog's zeal to wolf down the grass, some dirt might get added to the mix.                    </li>
-                    <li>If none of these suggestions work, you might need to seek help from a professional trainer or dog behavior specialist to break this habit.</li>
-                    <li>While eating dirt might be common among dogs, it isn't safe to let it continue. The sooner you act to prevent this behavior and get to the bottom of why it's happening, the better it will be for your dog's health and well-being.</li>
+                        <strong>Toys: Try DIY</strong>
+                    </li>
+                    <li>There are a lot of expensive bunny toys available, but it seems more often than not, rabbits just love playing with old-fashioned toys that don’t cost a cent, such as cardboard boxes, toilet-paper rolls stuffed with hay, and homemade cardboard tunnels or castles. Baby toys (such as plastic keys on a ring) can be cheaper than similar products sold in pet stores. Just make sure the plastic is hard, and not the “teething” kind, which can be chewed and ingested by rabbits.
+                    </li>
+                    <li>You might have to pay more for high-quality Timothy-based pellets, but with all the money you’ve saved with the other tips listed here, it will be a fair tradeoff!</li>
                 </ul>
             </div>
         </div>
