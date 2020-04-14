@@ -6,7 +6,7 @@ const HorseCare = () => {
         <div className={styles.container}>
             <ul className={styles.ul}> 
                 <li>
-                    <header>Horse Care</header>
+                    <h1>Horse Care</h1>
                 </li>
                 <div><img className={styles.img} src='../images/horse.jpg'/></div>
                 <li>Are you bringing an equine friend into your family, or looking to brush up on your horse care skills? Read on for tips to keep your horse healthy and happy.

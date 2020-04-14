@@ -6,7 +6,7 @@ const ArticleCatCare1 = () => {
         <div className={styles.container}>
             <ul className={styles.ul}> 
                 <li>
-                    <header>Basic Care</header>
+                    <h1>Basic Care</h1>
                 </li>
                 <div><img className={styles.img} src='../images/cat1.jpg'/></div>
                 <li>Have you recently added a feline friend to your family? Congratulations! We know you’ll be thrilled to have your new cat in your home. If you are considering adopting a cat, please visit your local shelter. We encourage you to browse our directory of adoptable cats in your area, or use our shelter finder to start your search.</li>

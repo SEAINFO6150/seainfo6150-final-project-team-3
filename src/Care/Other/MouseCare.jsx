@@ -6,7 +6,7 @@ const MouseCare = () => {
         <div className={styles.container}>
             <ul className={styles.ul}> 
                 <li>
-                    <header>Mouse Care</header>
+                    <h1>Mouse Care</h1>
                 </li>
                 <div><img className={styles.img} src='../images/mouse.jpg'/></div>
                 <li>A mouse measures in at about 3 1/2 inches, not including tail, and weighs just 1/2 to one ounce. While white (albino) mice are the most common type found in pet stores, fancy mice can be up to double the size, and come in a wide variety of coat colors and types, from curly and shiny to silver and cinnamon. If well cared for, mice typically live one three years.

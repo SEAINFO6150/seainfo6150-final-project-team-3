@@ -6,7 +6,7 @@ const ArticleDogCare1 = () => {
         <div className={styles.container}>
             <ul className={styles.ul}> 
                 <li>
-                    <header>Why Is My Dog Eating Dirt?</header>
+                    <h1>Why Is My Dog Eating Dirt?</h1>
                 </li>
                 <div><img className={styles.img} src='../images/dog1.jpg'/></div>
                 <li>
