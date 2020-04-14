@@ -42,6 +42,8 @@ import Partnership from "../BottomNav/Partnership";
 import GetInvolved from "../GetInvolved/GetInvolved";
 import Records from "../Adoption/AdoptionRecords.jsx";
 
+
+
 const Navigation = () => {
     return (
         <Router>
@@ -52,28 +54,14 @@ const Navigation = () => {
                     <header className={styles.slogan}>Welcome! Find the right pet for you!</header>
                 </div>
                 <nav className={styles.navBar}>
-                        <li>
-                            <Link to="/Home">HomePage</Link>
-                        </li>
-
-                        <li>
-                            <Link to="/Adoption">Pets Adoption</Link>
-                        </li>
-                        <li>
-                            <Link to="/Care">Pets Care</Link>
-                        </li>
-                        <li>
-                            <Link to="/News">News & Event</Link>
-                        </li>
-                        <li>
-                            <Link to="/AboutUS">About Us</Link>
-                        </li>
-                        <li>
-                            <Link to="/GetInvolved">Get Involved</Link>
-                        </li>
+                    <Link tabIndex="1" to="/Home">HomePage</Link>
+                    <Link tabIndex="2" to="/Adoption">Pets Adoption</Link>
+                    <Link tabIndex="3" to="/Care">Pets Care</Link>
+                    <Link tabIndex="4" to="/News">News & Event</Link>
+                    <Link tabIndex="5" to="/AboutUS">About Us</Link>
+                    <Link tabIndex="6" to="/GetInvolved">Get Involved</Link>
                 </nav>
             </div>
-
             <div>
                 <Switch>
                     <Route path="/Home" exact component={Home} />
@@ -133,29 +121,16 @@ const Navigation = () => {
             </div>
 
             <img className={styles.bottomImg} src="/images/BottomLogo.png" alt="BottomLogo" />
+
             {/*bottom navigation*/}
             <div className={styles.footerNav}>
-                <nav>
-                    <ul>
-                        <li>
-                            <Link to="/AboutUS">About Us</Link>
-                        </li>
-                        <li>
-                            <Link to="/FAQs">FAQs</Link>
-                        </li>
-                        <li>
-                            <Link to="/Partnership">Partnerships</Link>
-                        </li>
-                        <li>
-                            <Link to="/Terms">Terms & Services</Link>
-                        </li>
-                        <li>
-                            <Link to="/ForDeveloper">For Developers</Link>
-                        </li>
-                        <li>
-                            <Link to="/ContactUS">Contact Us</Link>
-                        </li>
-                    </ul>
+                <nav className={styles.footerBar}>
+                    <Link to="/AboutUS">About Us</Link>
+                    <Link to="/FAQs">FAQs</Link>
+                    <Link to="/Partnership">Partnerships</Link>
+                    <Link to="/Terms">Terms & Services</Link>
+                    <Link to="/ForDeveloper">For Developers</Link>
+                    <Link to="/ContactUS">Contact Us</Link>
                 </nav>
                 <div className={styles.claim}>
                     ©2020 NEU Web Design Team 3: Animal Adoption
