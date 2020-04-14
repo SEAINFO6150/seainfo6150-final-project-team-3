@@ -2,16 +2,16 @@ import React from "react";
 import styles from "./NewsDetails.module.css";
 import Data from "../../data/NewsData.json";
 
-const News2 = props => {
+const News4 = props => {
   return (
       <div className={styles.container}>
-            <h1>{Data.NewsItemData.b.head}</h1>
+            <h1>{Data.NewsItemData.d.head}</h1>
                 <ul className={styles.newsDetailsul}>
                    <li>
-                      <img className={styles.newsImage} src= {Data.NewsItemData.b.url} alt={"dogb"} />
+                      <img className={styles.newsImage} src= {Data.NewsItemData.d.url} alt={"dogd"} />
                       </li>
                          <li>
-                      <p>{Data.NewsItemData.b.para}</p>
+                      <p>{Data.NewsItemData.d.para}</p>
                    </li>
                 </ul>
             </div>
@@ -20,4 +20,4 @@ const News2 = props => {
   );
 };
 
-export default News2;
+export default News4;
