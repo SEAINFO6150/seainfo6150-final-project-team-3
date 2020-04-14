@@ -15,9 +15,9 @@
 }
 
 .slogan{
-    color: #c1cbd7;
-    font-family: Helvetica;
-    font-size: 3rem;
+    color: #69647b;
+    font-family: Serif;
+    font-size: 3.5rem;
     font-weight: bold;
 }
 
@@ -37,22 +37,31 @@
 .navBar li:hover{
     background-color: #bfbfbf;
 }
-li a {
+.navBar li a {
     color: #a68782;
     text-decoration: none;
 }
 
-
-
 .footerNav{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    background: #bfbfbf;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #dfd6d7, #ead0d1, #ead0d1 100%);
+}
 
+.footerNav ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
 }
 
 .footerNav li{
-    list-style: none;
-    font-size: 1.2rem;
+    padding: 20px;
+}
+
+
+.footerNav li a{
+    color: #69647b;
 }
 

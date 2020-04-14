@@ -132,30 +132,36 @@ const Navigation = () => {
 
 
             {/*bottom navigation*/}
-            <nav className={styles.footerNav}>
-                <ul>
-                    <li>
-                        <Link to="/AboutUS">About Us</Link>
-                    </li>
-                    <li>
-                        <Link to="/FAQs">FAQs</Link>
-                    </li>
-                    <li>
-                        <Link to="/Partnership">Partnerships</Link>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <Link to="/Terms">Terms & Services</Link>
-                    </li>
-                    <li>
-                        <Link to="/ForDeveloper">For Developers</Link>
-                    </li>
-                    <li>
-                        <Link to="/ContactUS">Contact Us</Link>
-                    </li>
-                </ul>
-            </nav>
+            <div className={styles.footerNav}>
+                <div>
+                    <img className={styles.logoImg} src="/images/petsLogo.png" alt="logo" />
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <Link to="/AboutUS">About Us</Link>
+                        </li>
+                        <li>
+                            <Link to="/FAQs">FAQs</Link>
+                        </li>
+                        <li>
+                            <Link to="/Partnership">Partnerships</Link>
+                        </li>
+                        <li>
+                            <Link to="/Terms">Terms & Services</Link>
+                        </li>
+                        <li>
+                            <Link to="/ForDeveloper">For Developers</Link>
+                        </li>
+                        <li>
+                            <Link to="/ContactUS">Contact Us</Link>
+                        </li>
+                    </ul>
+                </nav>
+                <div>
+                    ©2020 All trademarks are owned by Yali Sun, Cong Zhao, Xiaozi Xuan and Yan Lei Or used with permission.
+                </div>
+            </div>
         </Router>
     )
 }
