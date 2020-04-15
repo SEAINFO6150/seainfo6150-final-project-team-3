@@ -10,8 +10,8 @@ const CareListItem = ({article, enterDetail}) => {
       <Link to={`/care/${slug}`}>
         <img src={image._url} alt="title image" className={styles.img}/>
       </Link>
-      <Link to={`/care/${slug}`}>
-        <h1 className={styles.h1}>{title}</h1>
+      <Link className={styles.titleName} to={`/care/${slug}`}>
+      {title}
       </Link>
       <p className={styles.p}>{shortText}</p>
     </div>
