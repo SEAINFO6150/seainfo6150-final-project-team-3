@@ -46,8 +46,8 @@ export default class AskPetForm extends Component {
     };
 
     render() {
-        const genders = ['Male', 'Female', 'Rufuse to answer'];
-        const surveys = ['Yes', 'No', 'Rufuse to answer'];
+        const genders = ['Male', 'Female', 'Secret'];
+        const surveys = ['Yes', 'No', 'Secret'];
 
         return (
             <form onSubmit={this.formSubmit}>

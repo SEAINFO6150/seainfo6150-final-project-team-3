@@ -65,7 +65,6 @@ select{
     
     .fieldset {
         font-size: 0.6rem;
-        width: 200px;
     }
     input[type="radio"]{
         width: 10px;

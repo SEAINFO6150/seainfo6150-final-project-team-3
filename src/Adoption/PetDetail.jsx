@@ -14,7 +14,7 @@ const PetDetail = props => {
             <div className = {styles.summary}>
                 <p>* {props.pet.gender}&nbsp; &nbsp;&nbsp; * {props.pet.age} &nbsp; &nbsp;&nbsp;* {props.pet.position}</p>
                 <a className = {styles.link} href={"/askPet/"+ props.pet.name}>
-                    <div className = {styles.click}>Meet {props.pet.name} (click here to adopt {props.pet.name} )</div>
+                    <h3 className = {styles.h3}>Meet {props.pet.name} (click here to adopt {props.pet.name} )</h3>
                 </a>
             </div>
             
