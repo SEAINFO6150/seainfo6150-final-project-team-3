@@ -13,16 +13,12 @@ const PetDetail = props => {
             </picture>
             <div className = {styles.summary}>
                 <h1>{props.pet.name}</h1>
-                
                 <h2 className = {styles.h2}>Gender </h2>{props.pet.gender}
-                
                 <h2 className = {styles.h2}>Age</h2>{props.pet.age}
-                
                 <h1 className = {styles.h2}>Position</h1>{props.pet.position}
-                <a href="/askPet">
-                    <h2 className = {styles.h2}>Ask about {props.pet.name}</h2>
+                <a href={"/askPet/" + props.pet.name}>
+                    <h2 className = {styles.h2}> Ask about {props.pet.name}</h2>
                 </a>
-
             </div>
         </div>
         <br/>

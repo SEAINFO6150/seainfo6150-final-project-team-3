@@ -21,7 +21,6 @@ const AdoptionPage = (props) => {
     
     );
 
-    
 };
 
 AdoptionPage.propTypes = {

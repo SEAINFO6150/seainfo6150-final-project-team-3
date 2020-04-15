@@ -94,13 +94,16 @@ const Navigation = () => {
 
                     <Route path="/AboutUS" exact component={AboutUS} />
                     <Route path="/ContactUS" exact component={ContactUS} />
-                    <Route path="/askPet" exact component={AskPet}/>
                     <Route path="/Terms" exact component={Terms}/>
                     <Route path="/FAQs" exact component={FAQs}/>
                     <Route path="/ForDeveloper" exact component={ForDeveloper}/>
                     <Route path="/Partnership" exact component={Partnership}/>
                     <Route path="/GetInvolved" exact component={GetInvolved}/>
                     <Route path="/Records" exact component={Records}/>
+
+                    {/*<Route path="/askPet" exact component={AskPet}/>*/}
+
+
                     <Route path="/adoption/:adoption"
                            exact
                            render = {({match}) => (
@@ -114,6 +117,15 @@ const Navigation = () => {
                         render={({ match }) => (
                             <PetDetailPage id={match.params.id}/>
                         )}
+                    />
+
+                    <Route
+                        path="/askPet/:name"
+                        exact
+                        render={({ match }) => (
+                            <AskPet name={match.params.name}/>
+                        )}
+
                     />
 
                     <Route component={Home} />
