@@ -10,14 +10,13 @@
 }
 
 .aboutInfo ul{
-
     margin-left:0px;
     margin-right:0px;
-       padding: 0px;
-       display: grid;
-       grid-template-columns: 1fr;
-       margin-left:20px;
-       margin-right:20px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left:20px;
+    margin-right:20px;
 }
 
 .aboutInfo li{
