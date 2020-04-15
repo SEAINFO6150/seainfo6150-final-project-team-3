@@ -5,6 +5,7 @@
 
 .tab-list-item {
     font-size: 16px;
+    font-weight: bold;
     display: inline-block;
     list-style: none;
     margin-bottom: -1px;
@@ -12,7 +13,7 @@
 }
 
 .tab-list-active {
-    background-color: #FEF1F3;
+    background-color: #efefef;
     border: solid #ccc;
     border-width: 1px 1px 0 1px;
     border-top-left-radius: 15px;

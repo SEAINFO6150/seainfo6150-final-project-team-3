@@ -1,7 +1,7 @@
 .container {
   justify-content: space-between;
   flex-flow: column nowrap;
-  font-family: "Museo Slab 300";
+  font-family: "Times New Roman", Times, serif;
   border: 0px solid #79bfe9;
   
   min-height: 100%;
@@ -15,33 +15,76 @@
 }
 
 .h1 {
-  font-size: 30px;
+  font-size: 25px;
   font-style: normal;
   margin-top: 30px;
-  margin-left: 450px;
+  margin-left: 300px;
   margin-right: 450px;
   color: #69647b;
-  font-family: "Museo Slab 300";
+  font-family: "Times New Roman", Times, serif;
   ;
 }
 
 .p {
-  font-size: 22px;
+  font-size: 15px;
   margin-top: 1px;
-  margin-left: 450px;
+  margin-left: 300px;
   color: #69647b;
   word-wrap:break-word;
-  max-width: 600px;
-  font-family: "Museo Slab 300";
+  max-width: 100px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .img {
   box-shadow: 0 10px 20px 0 rgb(109, 104, 104); 
-  width:400px;
-  height:300px;
+  width:250px;
+  height:200px;
   float: left;
   border: 5px solid #CAE1FF;
   background-position:left top;
   margin-left:0px;
   margin-top:0px;
+}
+
+.ul{
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style-type: none;
+}
+
+@media(min-width: 700px) {
+  .img {
+    box-shadow: 0 10px 20px 0 rgb(109, 104, 104); 
+    width:400px;
+    height:300px;
+    float: left;
+    border: 5px solid #CAE1FF;
+    background-position:left top;
+    margin-left:0px;
+    margin-top:0px;
+  }
+
+  .h1 {
+    font-size: 30px;
+    font-style: normal;
+    margin-top: 30px;
+    margin-left: 450px;
+    margin-right: 450px;
+    color: #69647b;
+    font-family: "Times New Roman", Times, serif;
+    ;
+  }
+  
+  .p {
+    font-size: 22px;
+    margin-top: 1px;
+    margin-left: 450px;
+    color: #69647b;
+    word-wrap:break-word;
+    max-width: 600px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
 }
