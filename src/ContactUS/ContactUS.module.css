@@ -14,10 +14,10 @@
 .contactInfo ul{
     display: grid;
     grid-template-columns: 1fr;
-    }
+}
 
 .contactInfo li{
-    padding-bottom: 0rem;
+    padding-bottom: 1rem;
 }
 
 .contactInfo strong{
