@@ -8,6 +8,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left:0px;
+    list-style-type: none;
 }
 
 .contactInfo ul{
