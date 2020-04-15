@@ -7,13 +7,15 @@ const CareListItem = ({article, enterDetail}) => {
 
   return (
     <div className={styles.container}>
-      <Link to={`/care/${slug}`}>
-        <img src={image._url} alt="title image" className={styles.img}/>
+      <Link className={styles.left} to={`/care/${slug}`}>
+        <img src={image._url} alt="title image"/>
       </Link>
-      <Link className={styles.titleName} to={`/care/${slug}`}>
-      {title}
-      </Link>
-      <p className={styles.p}>{shortText}</p>
+      <div className={styles.right}>
+          <Link className={styles.titleName} to={`/care/${slug}`}>
+              {title}
+          </Link>
+          <p className={styles.p}>{shortText}</p>
+      </div>
     </div>
   );
 };
