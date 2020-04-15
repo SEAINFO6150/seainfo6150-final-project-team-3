@@ -2,39 +2,27 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './PetDetail.module.css'
 
+
 const PetDetail = props => {
 
     return (
-    <section>
+        <section>
         <div className={styles.box}>
-            <picture>
-                <source srcset={props.pet.img.url}/>
-                <a href="/askPet"><img className = {styles.image} src={props.pet.img.url} alt={props.pet.name}/></a>
-            </picture>
+            <header className = {styles.header}>{props.pet.name}</header>
+            <source srcset={props.pet.img.url}/>
+            <a href="/askPet"><img className = {styles.image} src={props.pet.img.url} alt={props.pet.name}/></a>
             <div className = {styles.summary}>
-                <h1>{props.pet.name}</h1>
-                
-                <h2 className = {styles.h2}>Gender </h2>{props.pet.gender}
-                
-                <h2 className = {styles.h2}>Age</h2>{props.pet.age}
-                
-                <h1 className = {styles.h2}>Position</h1>{props.pet.position}
-                <a href="/askPet">
-                    <h2 className = {styles.h2}>Ask about {props.pet.name}</h2>
+                <p>* {props.pet.gender}&nbsp; &nbsp;&nbsp; * {props.pet.age} &nbsp; &nbsp;&nbsp;* {props.pet.position}</p>
+                <a className = {styles.link}href="/askPet">
+                    <h3 className = {styles.h3}>Meet {props.pet.name} (click here to adopt {props.pet.name} )</h3>
                 </a>
-
-            </div>
-        </div>
-        <br/>
-        <div className = {styles.content}>
-            <div>
-                <h3 className = {styles.h1}>Information</h3>
-                {props.pet.information}
             </div>
             
         </div>
-           
-    </section>
+            <div className = {styles.content}>
+                <p>{props.pet.information}</p> 
+            </div>
+        </section>
     );
 }
 PetDetail.propTypes = {
