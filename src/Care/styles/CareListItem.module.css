@@ -21,7 +21,7 @@
   margin-left: 300px;
   margin-right: 450px;
   color: #69647b;
-  font-family: "Museo Slab 300";
+  font-family: "Times New Roman", Times, serif;
   ;
 }
 
@@ -32,7 +32,7 @@
   color: #69647b;
   word-wrap:break-word;
   max-width: 100px;
-  font-family: "Museo Slab 300";
+  font-family: "Times New Roman", Times, serif;
 }
 
 .img {
@@ -73,7 +73,7 @@
     margin-left: 450px;
     margin-right: 450px;
     color: #69647b;
-    font-family: "Museo Slab 300";
+    font-family: "Times New Roman", Times, serif;
     ;
   }
   
@@ -84,7 +84,7 @@
     color: #69647b;
     word-wrap:break-word;
     max-width: 600px;
-    font-family: "Museo Slab 300";
+    font-family: "Times New Roman", Times, serif;
   }
 
 }
