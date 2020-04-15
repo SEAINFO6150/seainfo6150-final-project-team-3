@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./AdoptionRecords.module.css";
 
-
-const Records = props => {
+const Records = () => {
   return (
       <div className={styles.container}>
         <header>2019 STATISTICS</header>
