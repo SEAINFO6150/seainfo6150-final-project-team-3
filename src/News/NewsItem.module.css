@@ -9,6 +9,15 @@
     height:200px;
 }
 
+
+.container a{
+    text-decoration: none;
+}
+
+.container  a:hover {
+    color:#a96a50;
+}
+
 .newsImage {
     float: left;
     border: 5px solid #CAE1FF;
@@ -21,7 +30,7 @@
 .newsH1{
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 280px;
+    margin-left: 10px;
     font-size: 1.8rem;
     font-weight: bold;
     color: #69647b;

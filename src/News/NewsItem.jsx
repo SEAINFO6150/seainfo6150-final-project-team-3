@@ -8,7 +8,7 @@ const NewsItem = props => {
     return (
          <div className={styles.container}>
               <Link to={`News/NewsDetails/${props.newsName}`}><NewsImage className={styles.newsImage} url={props.url} title={props.title} /></Link>
-              <Link to={`News/NewsDetails/${props.newsName}`}><h1 className={styles.newsH1}>{props.head}</h1></Link>
+              <Link className={styles.newsH1} to={`News/NewsDetails/${props.newsName}`}>{props.head}</Link>
               <p>{props.para}</p>
               <time>{props.time}</time>
          </div>

@@ -5,7 +5,7 @@ import styles from "./ContactUS.module.css";
 const ContactUs = props => {
   return (
       <div className={styles.container}>
-            <header>CONTACT US</header>
+            <header>Contact Us</header>
             <ul className={styles.newsDetailsul}>
                    <li> <img className={styles.ContactUsImage} src= {"/images/contact.jpg"} alt={"cat"} /></li>
                    <li>
