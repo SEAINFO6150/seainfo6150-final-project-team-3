@@ -1,7 +1,7 @@
 .container {
   justify-content: space-between;
   flex-flow: column nowrap;
-  font-family: Helvetica;
+  font-family: "Museo Slab 300";
   border: 0px solid #79bfe9;
   
   min-height: 100%;
@@ -15,23 +15,24 @@
 }
 
 .h1 {
-  font-size: 25px;
+  font-size: 30px;
   font-style: normal;
   margin-top: 30px;
   margin-left: 450px;
   margin-right: 450px;
   color: #69647b;
-  font-family: Helvetica;
+  font-family: "Museo Slab 300";
+  ;
 }
 
 .p {
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 1px;
   margin-left: 450px;
   color: #69647b;
   word-wrap:break-word;
   max-width: 600px;
-  font-family: Helvetica;
+  font-family: "Museo Slab 300";
 }
 
 .img {
