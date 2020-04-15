@@ -103,14 +103,14 @@
 
     .content{
         margin-left: 35px;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 }
 
 @media(min-width:1000px){
     .content{
         margin-left: 50px;
-        font-size:  1.8rem;
+        font-size:  1.5rem;
     }
 
     .header{

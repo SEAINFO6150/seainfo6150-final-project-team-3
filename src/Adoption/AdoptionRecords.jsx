@@ -14,7 +14,7 @@ const Records = props => {
                 
                 <p>
                     *6,824 Pets Adopted  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
-                    &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;*1,318 Pets Returned to Owners
+                    &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;*1,318 Pets Returned to Owners
                 </p>
                 <p>
                     733 Transferred to other agencies
