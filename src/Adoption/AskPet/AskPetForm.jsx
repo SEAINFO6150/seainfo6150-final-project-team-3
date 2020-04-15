@@ -90,7 +90,7 @@ export default class AskPetForm extends Component {
                     </fieldset>
 
                     <fieldset className = {styles.fieldset}>
-                        <label>YOUR MESSAGE（optional）</label><br/>
+                        <label>Your Message（optional）</label><br/>
                         <textarea className = {styles.textarea } name="suggestion" rows="8" cols="30" placeholder=" I wondering if ..." value={this.state.suggestion} onChange={this.operation}/>
                     </fieldset>
                     
