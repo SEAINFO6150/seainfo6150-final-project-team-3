@@ -4,11 +4,12 @@ import styles from './AskPet.module.css';
 import PropTypes from 'prop-types'
 import PetDetail from "../PetDetail";
 
+
 const AskPet = props => {
     return (
         <div>
             <header className = {styles.header}>
-                Ask about this {props.name} ！！！
+                Ask about {props.name}
             </header><br/>
             <form>
                 <AskPetForm/>
