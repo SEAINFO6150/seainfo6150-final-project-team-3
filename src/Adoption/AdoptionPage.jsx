@@ -13,13 +13,10 @@ const AdoptionPage = (props) => {
         }
     }
     return(
-        <div>
-            <ul className={styles.p}>
+        <div className={styles.p}>
             {petArray.map(pet => (
-                <li className={styles.li} key={pet.name}><Adoption pet = {pet}/></li>
+                <div className={styles.li} key={pet.name}><Adoption pet = {pet}/></div>
             ))}
-            </ul>
-
         </div>
     
     );

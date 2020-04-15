@@ -11,7 +11,6 @@ const PetDetail = props => {
                 <source srcset={props.pet.img.url}/>
                 <a href="/askPet"><img className = {styles.image} src={props.pet.img.url} alt={props.pet.name}/></a>
             </picture>
-
             <div className = {styles.summary}>
                 <h1 className = {styles.h1}>{props.pet.name}</h1>
                 

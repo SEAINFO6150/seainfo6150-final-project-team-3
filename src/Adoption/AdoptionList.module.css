@@ -9,23 +9,27 @@
 .option{
     margin:30px;
 }
-.option header{
+
+.option{
     color: #69647b;
-    font-size: 1em;
+    text-decoration: none;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
+.option header:hover{
+    color: #a96a50;
+}
 .image {
     width:95%;
     height:95%;
     border: 5px solid #CAE1FF;
 }
 
-
 @media(min-width: 600px){
     .option header{
         font-size: 1.8em;
+        margin-bottom: 1rem;
     }
 }
 @media(min-width:800px){

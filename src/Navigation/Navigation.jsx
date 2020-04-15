@@ -135,7 +135,7 @@ const Navigation = () => {
                 <div className={styles.claim}>
                     ©2020 NEU Web Design Team 3: Animal Adoption
                     <br/>
-                    Team Member: Yali Sun, Cong Zhao, Xiaozi Xuan and Yan Lei
+                    Team Member: Yali Sun, Cong Zhao, Zixuan Xiao and Yan Lei
                 </div>
             </div>
         </Router>
