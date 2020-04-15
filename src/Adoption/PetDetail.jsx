@@ -12,23 +12,23 @@ const PetDetail = props => {
                 <a href="/askPet"><img className = {styles.image} src={props.pet.img.url} alt={props.pet.name}/></a>
             </picture>
             <div className = {styles.summary}>
-                <h1 className = {styles.h1}>{props.pet.name}</h1>
+                <h1>{props.pet.name}</h1>
                 
                 <h2 className = {styles.h2}>Gender </h2>{props.pet.gender}
                 
                 <h2 className = {styles.h2}>Age</h2>{props.pet.age}
                 
-                <h2 className = {styles.h2}>Position</h2>{props.pet.position}
+                <h1 className = {styles.h2}>Position</h1>{props.pet.position}
                 <a href="/askPet">
-                    <h2 className = {styles.link}>Ask about this Pet</h2>
+                    <h2 className = {styles.h2}>Ask about {props.pet.name}</h2>
                 </a>
 
             </div>
         </div>
-
+        <br/>
         <div className = {styles.content}>
             <div>
-                <h3 className = {styles.h2}>Information</h3>
+                <h3 className = {styles.h1}>Information</h3>
                 {props.pet.information}
             </div>
             
