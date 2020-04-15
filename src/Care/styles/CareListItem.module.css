@@ -3,7 +3,6 @@
   flex-flow: column nowrap;
   font-family: "Times New Roman", Times, serif;
   border: 0px solid #79bfe9;
-  
   min-height: 100%;
   min-width: 100%;
   font-size: 10px;
@@ -67,7 +66,7 @@
   }
 
   .h1 {
-    font-size: 30px;
+    font-size: 2rem;
     font-style: normal;
     margin-top: 30px;
     margin-left: 450px;
@@ -78,12 +77,12 @@
   }
   
   .p {
-    font-size: 22px;
+    font-size: 1.5rem;
     margin-top: 1px;
     margin-left: 450px;
     color: #69647b;
     word-wrap:break-word;
-    max-width: 600px;
+    max-width: 500px;
     font-family: "Times New Roman", Times, serif;
   }
 
