@@ -16,8 +16,8 @@
 .titleName{
   margin-top: 5px;
   margin-bottom: 5px;
-  margin-left: 2rem;
-  font-size: 1rem;
+  margin-left: auto;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #69647b;
   font-family: "Times New Roman", Times, serif;
@@ -35,31 +35,33 @@
   font-size: 1.2rem;
   font-style: normal;
   margin-top: 30px;
-  margin-left: 17rem;
-  margin-right: 450px;
+  margin-left: auto;
+  margin-right: auto;
   color: #69647b;
   font-family: "Times New Roman", Times, serif;
 }
 
 .p {
   font-size: 1rem;
-  margin-top: 1px;
-  margin-left: 12rem;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
   color: #69647b;
   word-wrap:break-word;
-  max-width: 100px;
+  max-width: 500px;
   font-family: "Times New Roman", Times, serif;
 }
 
 .img {
   box-shadow: 0 10px 20px 0 rgb(109, 104, 104); 
-  width:150px;
-  height:100px;
+  width:30%;
+  height:auto;
   float: left;
   border: 5px solid #CAE1FF;
   background-position:left top;
   margin-left:0px;
   margin-top:0px;
+  margin-right: 1rem;
 }
 
 .ul{
@@ -73,8 +75,8 @@
 @media(min-width: 600px) {
   .img {
     box-shadow: 0 10px 20px 0 rgb(109, 104, 104); 
-    width:400px;
-    height:300px;
+    width:30%;
+    height:auto;
     float: left;
     border: 5px solid #CAE1FF;
     background-position:left top;
@@ -83,30 +85,31 @@
   }
 
   .h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-style: normal;
     margin-top: 30px;
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-left: auto;
+    margin-right: auto;
     color: #69647b;
     font-family: "Times New Roman", Times, serif;
     ;
   }
   
   .p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 1px;
-    margin-left: 440px;
     color: #69647b;
     word-wrap:break-word;
     max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: "Times New Roman", Times, serif;
   }
 
   .titleName{
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 2rem;
+    margin-left: auto;
     font-size: 1.8rem;
     font-weight: bold;
     color: #69647b;
