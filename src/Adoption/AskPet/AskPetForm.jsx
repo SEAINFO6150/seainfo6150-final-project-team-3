@@ -65,9 +65,9 @@ export default class AskPetForm extends Component {
                         </label>
                         <input name="country" type="text" value={this.state.country}
                             onChange={this.operation} required="required"/><br/>
+                    </fieldset>
 
-                        </fieldset>
-                        <fieldset className = {styles.fieldset}>
+                    <fieldset className = {styles.fieldset}>
 
                         <label>
                             Last name :<br/>
@@ -91,8 +91,9 @@ export default class AskPetForm extends Component {
 
                     <fieldset className = {styles.fieldset}>
                         <label>YOUR MESSAGE（optional）</label><br/>
-                        <textarea className = {styles.textarea } name="suggestion" rows="10" cols="30" placeholder=" I wondering if ..." value={this.state.suggestion} onChange={this.operation}/>
+                        <textarea className = {styles.textarea } name="suggestion" rows="8" cols="30" placeholder=" I wondering if ..." value={this.state.suggestion} onChange={this.operation}/>
                     </fieldset>
+                    
                     <div>
                         <lable className = {styles.fieldset}> Do you have pets in your home?</lable><br/>
                     {surveys.map((survey, i) =>
@@ -107,9 +108,10 @@ export default class AskPetForm extends Component {
                             </label>
                         )}
                         <br/>
-                        <br/><button className = {styles.button} type="submit">Send Message</button>
                    
                     </div>
+
+                    <div><br/><button className = {styles.button} type="submit">Send Message</button></div>
 
                 </div>
                 

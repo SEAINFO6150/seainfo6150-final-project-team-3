@@ -1,12 +1,13 @@
 .box{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 20px;
+    margin-top: 3rem;
 }
 
 .image{
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2rem;
     display: block;
     /* height: 90%;
     width:90%; */
@@ -15,122 +16,100 @@
 } 
 .h1{
     color:#69647b;
-    font-size: 30px;
-  
-    margin:10px;
+    font-size: 2.5rem;
     padding:10px;
-    text-align: center; 
+    text-align:center; 
 }
 .h2{
-    text-align: center; 
-    font-size: 28px;
+    text-align: left; 
+    font-family: "Times New Roman", Times, serif;
   
 }
 .summary{
-    margin-top: auto;
-    text-align: center;
+    text-align: left;
     color:#69647b;
     border-color: #69647b;
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .content{
-    margin: 5rem;
-    padding:10px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    /* padding:10px; */
     border: 2px dashed  #69647b;
     background: white;
-    color:#69647b;
-    font-size: 25px;
+    color: #69647b;
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
   
-}
-.link{
-    /* color: #69647b; */
-    font-size: 30px;
 }
 
 @media(min-width:400px){ 
     .h1{
-        font-size: 20px;
-        margin:5px;
+        font-size: 2rem;
     }
     .h2{
-        font-size: 18px;
-    }
-    .link{
-        font-size: 20px;
+        font-size: 1.3rem;
     }
     .image{
         height:250px;
     } 
     .content{
         margin-left: 10px;
-        font-size: 15px;
+        font-size: 1rem;
     }
 }
 
 @media(min-width: 600px){ 
     .h1{
-        font-size: 24px;
-        margin:8px;
+        font-size: 2.3rem;
     }
     .h2{
-        font-size: 20px;
-    }
-    .link{
-        font-size: 24px;
+        font-size: 1.5rem;
     }
     .image{
         height: 300px;
     } 
     .content{
         margin-left: 10px;
-        font-size: 18px;
+        font-size: 1.3rem;
     }
     
 }
 @media(min-width:800px){
     .content{
-        margin-left:25px;
-
+        margin-left:2.5rem;
     }
 
     .h1{
-        font-size: 28px;
-        margin:8px;
+        font-size: 2.5rem;
     }
     .h2{
-        font-size: 24px;
+        font-size: 1.6rem;
     }
-    .link{
-        font-size: 28px;
-    }
-
     .image{
         height: 325px;
     } 
 
     .content{
         margin-left: 35px;
-        font-size: 20px;
+        font-size: 1.5rem;
     }
 }
 
 @media(min-width:1000px){
     .content{
         margin-left: 50px;
-        font-size: 24px;
+        font-size:  1.8rem;
     }
 
     .h1{
-        font-size: 30px;
-        margin:10px;
+        font-size: 2.6rem;
     }
     .h2{
         font-size: 26px;
     }
-    .link{
-        font-size: 30px;
-    }
-
     .image{
         height: 400px;
     } 
