@@ -1,12 +1,17 @@
 .p{
+    margin-top: 1rem;
     display: grid;
-    grid-template-columns: repeat(3, 30%);
-    grid-template-rows: auto;
-    justify-content: space-between;
+    grid-template-columns: repeat(2, 45%);
+    justify-content: space-around;
+    row-gap: 1rem;
 }
 
 
+@media(min-width: 800px){
+    .p{
+        grid-template-columns: repeat(3, 30%);
+        row-gap: 2rem;
+        margin-top: 2rem;
 
-li{
-    list-style: none;
+    }
 }

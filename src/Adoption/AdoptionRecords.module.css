@@ -13,7 +13,6 @@
 .image{
     border: 5px solid #CAE1FF;
     margin-top:4px;
-  
 }
 
 .content{
@@ -28,7 +27,7 @@
     font-size: 2rem;
 }
 .h2{
-    text-align: ldft; 
+    text-align: left;
     font-family: "Times New Roman", Times, serif;
   
 }

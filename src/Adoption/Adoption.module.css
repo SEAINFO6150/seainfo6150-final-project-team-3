@@ -1,90 +1,56 @@
-.adoption{
-    margin:10px;
-    padding: 10px;
-    display: flow;
-    justify-content: space-between;
-    box-shadow: 0 10px 12px 0 dimgray; 
+.container{
+    font-family: "Times New Roman", Times, serif;
+    box-shadow: 0 10px 12px 0 dimgray;
+    text-align: center;
+    padding: 5%;
+    height: auto;
+    width: 200px;
 }
 
-
-.petName{
-    margin:8px;
-    padding:5px;
+.container a{
     color: #69647b;
-    font-size: 30px;
+    text-decoration: none;
 }
 
-.image{
-    margin:3px;
-    /* width:95%;
-    height:85%; */
+.img{
+    margin-top: 10px;
     border: 5px solid #CAE1FF;
+    width: 180px;
+    height: 120px;
+}
+.petName{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
-.p{
+.petName:hover{
+    color: #a96a50;
+}
+
+.summary{
     margin:5px;
-    font-size:20px;
+    font-size:1.1rem;
     color: #69647b;
 }
 
-@media(min-width:400px){ 
+@media(min-width:960px) {
+    .container{
+        height: 320px;
+        width: 280px;
+    }
     .petName{
-        font-size: 15px;
+        font-size: 1.5rem;
     }
-
-    .image{
-        width:80px;
-        height: 73px;
+    .summary{
+        font-size: 1.2rem;
     }
-    .p{
-        font-size: 10px;
+    .img{
+        width: 270px;
+        height: 200px;
+        margin-top: 1rem;
     }
 }
-
-@media(min-width: 600px){ 
-    .petName{
-        font-size: 20px;
-    }
-
-    .image{
-        margin:2px;
-        width:150px;
-        height:137px;
-    }
-    .p{
-        font-size: 15px;
-    }
-    
-}
-@media(min-width:800px){
-    .petName{
-        font-size: 25px;
-    }
-    .image{
-        margin:3px;
-        width:200px;
-        height:183px;
-    }
-    .p{
-        font-size: 18px;
-    }
-}
-
-@media(min-width:1000px){
-    .petName{
-        font-size: 30px;
-    }
-    .image{
-        margin:3px;
-        width:260px;
-        height:230px;
-    }
-    .p{
-        font-size: 20px;
-    }
-}
-
-
 
 
 

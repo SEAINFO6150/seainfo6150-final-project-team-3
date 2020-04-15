@@ -4,12 +4,13 @@ import styles from './Adoption.module.css'
 
 const Adoption = props => {
     return (
-    <div className = {styles.adoption}>
-        <a href={"/detail/" +props.pet.id}>
-            <img className = {styles.image} src={props.pet.img.url}/>
-            <h1 className = {styles.petName}>{props.pet.name}</h1></a>
-        <p className={styles.p}>{props.pet.summary}</p>
-    </div>
+        <div className = {styles.container}>
+            <a href={"/detail/" +props.pet.id}>
+                <img className={styles.img} src={props.pet.img.url}/>
+                <div className = {styles.petName}>{props.pet.name}</div>
+            </a>
+            <p className={styles.summary}>{props.pet.summary}</p>
+        </div>
     );
 }
 Adoption.propTypes = {

@@ -35,9 +35,9 @@
     text-decoration: none;
     margin-left: 5px;
 }
+
 .navBar a:hover, .navBar a:active, .navBar a[tabindex]:focus{
     background-color: #c1cbd7;
-
 }
 
 .bottomImg{
@@ -84,6 +84,7 @@
     .navBar a{
         font-size: 1.2rem;
         padding: 1rem;
+        margin-left: 12px;
     }
     .footerNav a{
         padding: 10px;
