@@ -7,6 +7,7 @@
     display: grid;
     grid-template-columns: 1fr;
     margin-left:0px;
+    list-style-type: none;
 }
 
 .aboutInfo ul{
@@ -22,7 +23,7 @@
 .aboutInfo li{
     padding-bottom: 0.5rem;
     align-items: center;
-        list-style-type: none;
+    list-style-type: none;
 }
 
 .aboutInfo p{
