@@ -65,6 +65,7 @@ const Navigation = () => {
 
             <div>
                 <Switch>
+                    <Route path="/" exact component={Home} />
                     <Route path="/Home" exact component={Home} />
                     <Route path="/Adoption" exact component={AdoptionList} />
                     <Route path="/care/cat_care_1" exact component={ArticleCatCare1} />
