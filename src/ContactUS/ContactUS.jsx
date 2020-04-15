@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./ContactUS.module.css";
 
 
-const ContactUs = props => {
+const ContactUs = () => {
   return (
       <div className={styles.container}>
             <header>Contact Us</header>

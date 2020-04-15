@@ -1,13 +1,11 @@
 import React from "react";
-import PropTypes from 'prop-types';
 import styles from "./News.module.css";
 import NewsItem from "./NewsItem";
-import { render } from "react-dom";
 import Tabs from './Tabs';
 import Data from "../data/NewsData.json";
 require('./styles.css');
 
-const News = props => {
+const News = () => {
   return (
     <div>
         <Tabs>

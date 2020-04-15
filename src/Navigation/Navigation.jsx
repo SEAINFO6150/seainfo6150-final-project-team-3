@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import styles from './Navigation.module.css'
 import {BrowserRouter as Router, Link, Switch, Route} from "react-router-dom";
 
@@ -62,6 +62,7 @@ const Navigation = () => {
                     <Link tabIndex="6" to="/GetInvolved">Get Involved</Link>
                 </nav>
             </div>
+
             <div>
                 <Switch>
                     <Route path="/Home" exact component={Home} />
@@ -91,7 +92,6 @@ const Navigation = () => {
                      <Route path="/News/NewsDetails/News4" exact component={News4}/>
                      <Route path="/News/NewsDetails/News5" exact component={News5} />
                      <Route path="/News/NewsDetails/News6" exact component={News6} />
-
                     <Route path="/AboutUS" exact component={AboutUS} />
                     <Route path="/ContactUS" exact component={ContactUS} />
                     <Route path="/Terms" exact component={Terms}/>
@@ -100,9 +100,6 @@ const Navigation = () => {
                     <Route path="/Partnership" exact component={Partnership}/>
                     <Route path="/GetInvolved" exact component={GetInvolved}/>
                     <Route path="/Records" exact component={Records}/>
-
-                    {/*<Route path="/askPet" exact component={AskPet}/>*/}
-
 
                     <Route path="/adoption/:adoption"
                            exact
@@ -118,17 +115,14 @@ const Navigation = () => {
                             <PetDetailPage id={match.params.id}/>
                         )}
                     />
-
                     <Route
                         path="/askPet/:name"
                         exact
                         render={({ match }) => (
                             <AskPet name={match.params.name}/>
                         )}
-
                     />
-
-                    <Route component={Home} />
+                    <Route component={Error} />
                 </Switch>
             </div>
 
@@ -145,7 +139,7 @@ const Navigation = () => {
                     <Link to="/ContactUS">Contact Us</Link>
                 </nav>
                 <div className={styles.claim}>
-                    ©2020 NEU Web Design Team 3: Animal Adoption
+                    ©2020 NEU Web Design Team 3: Pets Adoption
                     <br/>
                     Team Member: Yali Sun, Cong Zhao, Zixuan Xiao and Yan Lei
                 </div>
@@ -156,10 +150,9 @@ const Navigation = () => {
 
 
 const externalContent = {
-    id: "article-1",
-    title: "An Article",
-    author: "April Bingham",
-    text: "Some text in the article"
+    Project_Name:"Pets Adoption",
+    Team: "Team3",
+    Team_Member: "Cong Zhao, Zixuan Xiao, Yan Lei, Yali Sun"
 };
 
 export default Navigation;

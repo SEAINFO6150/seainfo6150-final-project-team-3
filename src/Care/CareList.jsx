@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useHistory, useRouteMatch, Switch, Route } from 'react-router-dom';
+import React from 'react';
+import {useHistory, useRouteMatch} from 'react-router-dom';
 import PropTypes from 'prop-types';
 import articles from '../data/CareList.json';
 import CareListItem from './CareListItem.jsx';

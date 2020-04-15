@@ -15,14 +15,12 @@
 
 .slogan{
     color: #69647b;
-    font-family: Serif;
     font-size: 1.8rem;
     font-weight: bold;
 }
 
 .navBar{
     text-align: justify;
-    font-family: Helvetica;
     padding: 0rem;
     margin:0rem;
 }
@@ -63,13 +61,11 @@
     color: #69647b;
     padding: 6px;
     font-size: 0.8rem;
-    margin-bottom: 0rem;
 }
 
 .claim{
     color: #5f524a;
     text-align: center;
-    padding-top: 0rem;
     padding-bottom: 1rem;
     font-size: 0.8rem;
 }

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./AboutUS.module.css";
 
 
-const AboutUS = props => {
+const AboutUS = () => {
   return (
 
       <div className={styles.container}>

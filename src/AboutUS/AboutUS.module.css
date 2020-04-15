@@ -11,8 +11,6 @@
 }
 
 .aboutInfo ul{
-    margin-left:0px;
-    margin-right:0px;
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr;
@@ -45,13 +43,12 @@
 .aboutUsImage{
     border: 5px solid #CAE1FF;
     margin-top:10px;
-    margin-right:40px;
     width: 420px;
     height: auto;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom:5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:5px;
 
 }
 

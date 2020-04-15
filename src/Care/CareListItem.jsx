@@ -1,9 +1,9 @@
 import React from "react";
 import styles from './styles/CareListItem.module.css'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-const CareListItem = ({article, enterDetail}) => {
-  const { title, image, slug, shortText, pubDate, pubYear, author} = article;
+const CareListItem = ({article}) => {
+  const { title, image, slug, shortText} = article;
 
   return (
     <div className={styles.container}>

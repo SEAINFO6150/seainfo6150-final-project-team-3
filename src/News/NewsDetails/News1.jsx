@@ -3,7 +3,7 @@ import styles from "./NewsDetails.module.css";
 import Data from "../../data/NewsData.json";
 
 
-const News1 = props => {
+const News1 = () => {
   return (
       <div className={styles.container}>
       <header>{Data.NewsItemData.a.head}</header>

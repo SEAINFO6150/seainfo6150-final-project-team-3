@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './GetInvolved.module.css';
 import {Link} from "react-router-dom";
 
-const GetInvolved = props => {
+const GetInvolved = () => {
   return (
 
       <div className={styles.container}>

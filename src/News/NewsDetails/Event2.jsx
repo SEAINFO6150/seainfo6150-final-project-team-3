@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./NewsDetails.module.css";
 import Data from "../../data/NewsData.json";
 
-const Event2 = props => {
+const Event2 = () => {
   return (
       <div className={styles.container}>
             <header>{Data.EventsItemData.b.head}</header>
