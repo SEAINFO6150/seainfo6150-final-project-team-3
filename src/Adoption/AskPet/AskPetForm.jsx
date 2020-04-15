@@ -19,7 +19,7 @@ export default class AskPetForm extends Component {
     };
 
     formSubmit = (e) => {
-        alert('Hello ' + this.state.FirstName + 'We received your message and will contact you soon!!!');
+        alert('Hello ' + this.state.FirstName + ', we received your message and will contact you soon!!!');
         e.preventDefault();
     };
 
@@ -124,7 +124,7 @@ export default class AskPetForm extends Component {
                             <option value="email">Email</option>
                             <option value="phoneCall">Phone call</option>
                             <option value="text">Text</option>
-                            <option value="others">others</option>
+                            <option value="others">Others</option>
                         </select>
                     </label><br/>
                 </fieldset>
