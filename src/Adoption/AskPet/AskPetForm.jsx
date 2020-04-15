@@ -3,25 +3,29 @@ import styles from "./AskPetForm.module.css"
 
 export default class AskPetForm extends Component {
 
-    formSubmit = (message) => {
-        alert('We received your message and will contact you soon!!!');
-        message.preventDefault();
-    };
-
     state = {
         FirstName: '',
         LastName: '',
         email: '',
         number: '',
         gender: '',
-        country: '',
-        zipCode: '',
-        phoneNumberError: '',
-        emailError: '',
-
+        manner: '',
+        frequency: '',
+        message: '',
+        errormessage_num: '',
+        errormessage_email: '',
+        birthday: '',
+        kind: '',
     };
-    operation = (message) => {
-        const input = message.target;
+
+    formSubmit = (e) => {
+        alert('Hello ' + this.state.FirstName + 'We received your message and will contact you soon!!!');
+        e.preventDefault();
+    };
+
+
+    operation = (e) => {
+        const input = e.target;
         const name = input.name;
         const value = input.type === 'checkbox' ? input.checked : input.value;
         this.setState({[name]: value});
@@ -29,12 +33,12 @@ export default class AskPetForm extends Component {
         let errEmail ='';
         if (name === "number") {
             if (value != "" && !Number(value)) {
-                errNumber = <strong>Phone number only permit digits! </strong>;
+                errNumber = <strong className = {styles.wrong}>Please input a correct phone number!</strong>;
             }
         }
         if(name === "email"){
             if (value != "" && !(/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/.test(value))) {
-                errEmail = <strong>Please input a correct Email! </strong>;
+                errEmail = <strong className = {styles.wrong}>Wrong Email Format! </strong>;
             }
         }
         this.setState({phoneNumberError: errNumber});
@@ -42,77 +46,115 @@ export default class AskPetForm extends Component {
     };
 
     render() {
-        const surveys = ['Yes', 'No'];
+        const genders = ['Male', 'Female', 'Rufuse to answer'];
+        const surveys = ['Yes', 'No', 'Rufuse to answer'];
+
         return (
             <form onSubmit={this.formSubmit}>
-                <div className = {styles.container}>
-                    <fieldset className = {styles.fieldset}>
-                        <label>
-                            First name :<br/>
-                        </label>
-                        <input name="FirstName" type="text" value={this.state.FirstName}
-                            onChange={this.operation} required="required"/><br/>
-                        <br/>
-                        <label>
-                            Phone Number:<br/>
-                        </label>
-                        <input name="number" type="text"  value={this.state.number}
-                            onChange={this.operation}/>
-                        {this.state.phoneNumberError}<br/>
-                        <br/>
-                        <label>
-                            Country :<br/>
-                        </label>
-                        <input name="country" type="text" value={this.state.country}
-                            onChange={this.operation} required="required"/><br/>
-                    </fieldset>
+           <div className = {styles.container}>
+                <fieldset className = {styles.fieldset}>
+                    <label>
+                        First name :<br/>
+                    </label>
+                    <input name="FirstName" type="text" value={this.state.FirstName}
+                        onChange={this.operation} required="required"/><br/>
+                    <br/>
+                    <label>
+                        Phone Number:<br/>
+                    </label>
+                    <input name="number" type="text"  value={this.state.number}
+                        onChange={this.operation}/>
+                    {this.state.phoneNumberError}<br/>
+                    <br/>
+                    <label>
+                        Country :<br/>
+                    </label>
+                    <input name="country" type="text" value={this.state.country}
+                        onChange={this.operation} required="required"/><br/>
+                </fieldset>
 
-                    <fieldset className = {styles.fieldset}>
+                <fieldset className = {styles.fieldset}>
 
-                        <label>
-                            Last name :<br/>
-                        </label>
-                        <input name="LastName" type="text" value={this.state.LastName}
-                            onChange={this.operation} required="required"/><br/>
-                        <br/>
-                        <label>
-                            Email Address :<br/>
-                        </label>
-                        <input name="email" type="text" value={this.state.email}
-                            onChange={this.operation} required="required"/>
-                        {this.state.emailError}<br/>
-                        <br/>
-                        <label>
-                           ZIP Code<br/>
-                        </label>
-                        <input name="zipCode" type="text"  value={this.state.zipCode}
-                            onChange={this.operation}/>
-                    </fieldset>
-
-                    <fieldset className = {styles.fieldset}>
-                        <label>Your Message（optional）</label><br/>
-                        <textarea className = {styles.textarea } name="suggestion" rows="8" cols="20" placeholder=" I wondering if ..." value={this.state.suggestion} onChange={this.operation}/>
-                    </fieldset>
+                    <label>
+                        Last name :<br/>
+                    </label>
+                    <input name="LastName" type="text" value={this.state.LastName}
+                        onChange={this.operation} required="required"/><br/>
+                    <br/>
+                    <label>
+                        Email Address :<br/>
+                    </label>
+                    <input name="email" type="text" value={this.state.email}
+                        onChange={this.operation} required="required"/>
+                    {this.state.emailError}<br/>
+                    <br/>
+                    <label>
+                        ZIP Code<br/>
+                    </label>
+                    <input name="zipCode" type="text"  value={this.state.zipCode}
+                        onChange={this.operation}/>
+                </fieldset>
                     
-                    <div>
-                        <lable className = {styles.fieldset}> Do you have pets in your home?</lable><br/>
-                    {surveys.map((survey, i) =>
-                            <label className = {styles.fieldset} key={i}>
+                
+                <fieldset className = {styles.fieldset}>
+                    <label>Your Message（optional）</label><br/>
+                    <textarea className = {styles.textarea } name="suggestion" rows="8" cols="18" placeholder=" I wondering if ..." value={this.state.suggestion} onChange={this.operation}/>
+                </fieldset>
+                </div>
+                <div className = {styles.container}>
+                <fieldset className = {styles.fieldset}>
+                        <label>Gender :</label><br/>
+                        {genders.map((gender, i) =>
+                            <label key={i}>
                                 <input
-                                    name="survey"
-                                    value={survey}
+                                    name="gender"
+                                    value={gender.toUpperCase()}
+                                    checked={this.state.gender === gender.toUpperCase()}
                                     onChange={this.operation}
                                     type="radio"
                                     required="required"/>
-                                {survey}
+                                {gender}
                             </label>
                         )}
-                        <br/>
+             
+                    <br/><br/>
+                    <label>How do you want us to contact you? 
+                    <br/><br/>
+                        <select name ="manner" value={this.state.manner} onChange={this.operation} required="required">
+                            <option value="email">Email</option>
+                            <option value="phoneCall">Phone call</option>
+                            <option value="text">Text</option>
+                            <option value="others">others</option>
+                        </select>
+                    </label><br/>
+                </fieldset>
+
+                <fieldset className = {styles.fieldset}>
+                        <label >Do you have pets in your home? </label><br/>
+                        {surveys.map((survey, i) =>
+                                <label className = {styles.fieldset} key={i}>
+                                    <input
+                                        name="survey"
+                                        value={survey}
+                                        onChange={this.operation}
+                                        type="radio"
+                                        required="required"/>
+                                    {survey}
+                                </label>
+                            )}
+
+                    <br/><br/>
                    
-                    </div>
-
-                    <div><br/><button className = {styles.button} type="submit">Send Message</button></div>
-
+                    <label>If yes, what kind of pet do you have?
+                    <br/><br/>
+                        <select name ="kind" value={this.state.kind} onChange={this.operation}>
+                            <option value="dog">Dog</option>
+                            <option value="cat">Cat</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </label><br/> 
+                </fieldset>
+                <div><br/><button className = {styles.button} type="submit">Send Message</button></div>
                 </div>
                 
             </form>
