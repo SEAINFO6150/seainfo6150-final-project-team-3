@@ -5,23 +5,25 @@
 }
 .container header{
   text-align:center;
-  margin-bottom:20px;
+  margin-bottom:10px;
       font-size: 2.5rem;
       color: #69647b;
 }
 .container p{
-    white-space: pre-line;
+    color: #69647b;
     font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
+    white-space: pre-line;
     text-align: justify;
     margin-left:10px;
     margin-right:10px;
     margin-top:0px;
-    color: #69647b;
     }
 
 .newsImage{
-    border: 5px solid #79bfe9;
-    margin-top:4px;
+    border: 5px solid #CAE1FF;
+    margin-top:0px;
+    margin-bottom:15px;
     margin-left:15px;
     margin-right:15px;
     width: 500px;
