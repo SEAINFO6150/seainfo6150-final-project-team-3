@@ -12,8 +12,8 @@
 .container img {
     margin-top:8px;
     margin-bottom: 20px;
-    width: auto;
-    height: 8rem;
+    width: 80%;
+    height: auto;
 }
 
 .container h1 {
@@ -43,8 +43,9 @@
     .container img {
         margin-top:8px;
         margin-bottom: 20px;
-        width: auto;
-        height: 25rem;
+        margin-right: 2px;
+        width: 80%;
+        height: auto;
     }
     
     .ul li {
