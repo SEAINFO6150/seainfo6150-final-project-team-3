@@ -11,8 +11,9 @@
 }
 
 .contactInfo ul{
-    display:inline;
-}
+    display: grid;
+    grid-template-columns: 1fr;
+    }
 
 .contactInfo li{
     padding-bottom: 0rem;
@@ -23,6 +24,7 @@
     margin: 0px;
     font-size: 1.5rem;
     font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
 
 }
 
@@ -30,6 +32,7 @@
     color: #69647b;
     margin: 0px;
     font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
 
 }
 
@@ -43,15 +46,16 @@
 }
 
 .contactInfo{
-    margin-left:10px;
+    margin-left:0px;
 }
 
 .container header{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: bold;
     text-align: center;
     color: #69647b;
-    font-family: Helvetica;
+    margin-bottom:10px;
+    font-family: "Times New Roman", Times, serif;
 }
 
 @media(max-width: 700px){

@@ -21,7 +21,7 @@
 }
 
 .aboutInfo li{
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
     align-items: center;
         list-style-type: none;
 }
@@ -30,6 +30,7 @@
     color: #69647b;
     margin: 0px;
     font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .aboutInfo strong{
@@ -37,13 +38,15 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin-left: 0px;
+    font-family: "Times New Roman", Times, serif;
+
 }
 
 .aboutUsImage{
     border: 5px solid #CAE1FF;
     margin-top:10px;
     margin-right:40px;
-    width: 400px;
+    width: 420px;
     height: auto;
             display: block;
             margin-left: auto;
@@ -58,17 +61,17 @@
 }
 
 .container header{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: bold;
     text-align: center;
     color: #69647b;
-    font-family: Helvetica;
+    font-family: "Times New Roman", Times, serif;
     margin-bottom:10px;
 }
 
 @media(max-width: 700px){
     .aboutUsImage{
-        width: 250px;
+        width: 300px;
         height: auto;
         margin-bottom:10px;
     }
