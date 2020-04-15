@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 30%);
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .fieldset {
@@ -15,13 +15,10 @@
 
 
 input {
-    /* width: 200px;
-    height: 30px; */
     padding: 0 30px;
     font-size: 14px;
     font-family: Helvetica;
     color: #69647b;
-    
 }
 
 input[type="radio"]{
@@ -29,41 +26,66 @@ input[type="radio"]{
     position: relative;
     width: 20px;
     height: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+input[type="checkbox"]{
+    display: inline-block;
+    position: relative;
+    border: solid 1px rgb(180, 171, 171);
+    /* cursor: pointer; */
+    font-family: "Times New Roman", Times, serif;
 }
 
 .textarea{
-    /* font-size: 1.5rem; */
     color: #69647b;
+}
+select{
+    color: #69647b;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+.wrong{
+    margin-left: 10px;
+    color: red;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
     
 }
 
 
 .button{
-    /* height:40px;
-    width: 250px; */
     border-radius: 10px;
-    background-color: #ccc;
-    /* font-size: 25px ; */
+    background-color: rgb(180, 171, 171);
     font-family: Helvetica;
     color: #69647b;
-    margin-top: 20px;
 }
+
+
 @media(min-width:400px) {
     
     .fieldset {
-        font-size: 1rem;
+        font-size: 0.6rem;
+        width: 200px;
     }
-    
+    input[type="radio"]{
+        width: 10px;
+        height: 10px;
+    }
     
     input {
         width: 70px;
         height: 10px;
         padding: 0 30px;
+        font-size: 0.6rem;
+        font-size: 10px;
+    }
+
+    select{
         font-size: 0.8rem;
     }
-    
+ 
     .textarea{
-        font-size: 1rem;
+        font-size: 0.6rem;
     }
 }
 @media(min-width:600px) {
@@ -71,7 +93,10 @@ input[type="radio"]{
     .fieldset {
         font-size: 1.3rem;
     }
-    
+    input[type="radio"]{
+        width: 20px;
+        height: 20px;
+    }
     
     input {
         width: 140px;
@@ -79,9 +104,18 @@ input[type="radio"]{
         padding: 0 30px;
         font-size: 1rem;
     }
+ 
+    select{
+        font-size: 1.3rem;
+    }
     
     .textarea{
         font-size: 1.3rem;
+    }
+    .button{
+        height:30px;
+        width: 200px;
+        font-size: 25px ;
     }
 }
 @media(min-width:960px) {
@@ -89,7 +123,10 @@ input[type="radio"]{
     .fieldset {
         font-size: 1.5rem;
     }
-    
+    input[type="radio"]{
+        width: 25px;
+        height: 25px;
+    }
     
     input {
         width: 200px;
@@ -104,6 +141,9 @@ input[type="radio"]{
     .button{
         height:40px;
         width: 250px;
-        font-size: 25px ;
+        font-size: 20px ;
+    }
+    select{
+        font-size: 1.5rem;
     }
 }

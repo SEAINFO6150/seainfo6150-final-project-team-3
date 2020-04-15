@@ -47,11 +47,8 @@
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
-.click{
-    font-size: 1.3rem;
-}
 
-.click:hover{
+.link h3:hover{
     color: #a96a50;
 }
 @media(min-width:400px){ 
@@ -107,9 +104,6 @@
     .content{
         margin-left: 35px;
         font-size: 1.4rem;
-    }
-    .click{
-        font-size: 1.5rem;
     }
 }
 
